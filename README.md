@@ -1,105 +1,115 @@
-# SKSE "Hello, world!"
+# Home Assistant Link - Skyrim Mod
 
-Very simple C++ SKSE plugin for Skyrim!
+[![GitHub last commit](https://img.shields.io/github/last-commit/fabianviol/HomeAssistantLink)](https://github.com/fabianviol/HomeAssistantLink/commits/main)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 🎮 Immerse Yourself in Skyrim with Dynamic Lighting!
+
+Home Assistant Link is an SKSE plugin for Skyrim Special Edition (AE) that connects your game state to your Home Assistant smart home setup. This allows for dynamic lighting experiences, such as your smart lights changing color when you enter combat, your health gets low, or as the in-game time changes.
+
+Currently, the plugin provides a robust foundation for this integration, with planned features to make the lighting scenarios fully customizable via the configuration file.
 
 ---
 
-- [SKSE "Hello, world!"](#skse-hello-world)
-- [What does it do?](#what-does-it-do)
-- [CommonLibSSE NG](#commonlibsse-ng)
-- [Requirements](#requirements)
-  - [Opening the project](#opening-the-project)
-- [Project setup](#project-setup)
-  - [Finding Your "`mods`" Folder](#finding-your-mods-folder)
-- [Setup your own repository](#setup-your-own-repository)
-- [Sharing is Caring](#sharing-is-caring)
+## ✨ Features
 
-# What does it do?
+* **Seamless Integration:** Connects directly to your Home Assistant instance via its API.
+* **Customizable Lights:** Configure a list of Home Assistant light entity IDs to control.
+* **In-Game Console Logging:** Toggle a debug mode to see plugin messages directly in Skyrim's console.
+* **Dedicated File Logging:** Detailed plugin activity is logged to `HomeAssistantLink.log` for easy troubleshooting.
+* **Combat State Lighting:** Currently changes lights to **Red** when the player is in combat, and **Green** when out of combat. (More customizable triggers coming soon!)
 
-After running Skyrim, once at the Main Menu, press the `~` key to open the game console.
+---
 
-You will see that we printed `"Hello, world!"` to the console at the Main Menu 🐉
+## ⚡ Requirements
 
-# CommonLibSSE NG
+* **Skyrim Special Edition** (Anniversary Edition, 1.6.x)
+* **SKSE64** (latest version for your Skyrim AE build)
+* A running **Home Assistant** instance (e.g., Home Assistant OS, Docker, etc.)
+* **Configured Smart Lights** in Home Assistant (e.g., Philips Hue, Tuya, Zigbee2MQTT, etc.)
+* A **Long-Lived Access Token** from your Home Assistant user profile (needed for API access).
 
-Because this uses [CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG), it supports Skyrim SE, AE, GOG, and VR.
+---
 
-[CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG) is a fork of the popular [powerof3 fork](https://github.com/powerof3/CommonLibSSE) of the _original_ `CommonLibSSE` library created by [Ryan McKenzie](https://github.com/Ryan-rsm-McKenzie) in [2018](https://github.com/Ryan-rsm-McKenzie/CommonLibSSE/commit/224773c424bdb8e36c761810cdff0fcfefda5f4a).
+## 🚀 Installation
 
-# Requirements
+### 1. Download the Plugin
+* Download the latest release of `HomeAssistantLink.dll` and `HomeAssistantLink.json` from the [Releases page](https://github.com/fabianviol/HomeAssistantLink/releases) (or build from source).
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) (_the free Community edition_)
-- [`vcpkg`](https://github.com/microsoft/vcpkg)
-  - 1. Clone the repository using git OR [download it as a .zip](https://github.com/microsoft/vcpkg/archive/refs/heads/master.zip)
-  - 2. Go into the `vcpkg` folder and double-click on `bootstrap-vcpkg.bat`
-  - 3. Edit your system or user Environment Variables and add a new one:
-    - Name: `VCPKG_ROOT`  
-      Value: `C:\path\to\wherever\your\vcpkg\folder\is`
+### 2. Manual Installation (Recommended via Mod Organizer 2 / Vortex)
+1.  Navigate to your Skyrim Special Edition installation folder.
+2.  Go into `Data/SKSE/Plugins`. If `SKSE` or `Plugins` folders don't exist, create them.
+3.  Place `HomeAssistantLink.dll` and `HomeAssistantLink.json` directly into the `Data/SKSE/Plugins` folder.
+    * **Example Path:** `C:\Steam\steamapps\common\Skyrim Special Edition\Data\SKSE\Plugins\`
 
-<img src="https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Setting%20Environment%20Variables/VCPKG_ROOT.png" height="150">
+### 3. Verify SKSE Setup
+* Ensure SKSE64 is correctly installed and running. You can check this by opening the Skyrim console (`~`) and typing `GetSKSEVersion`.
 
-## Opening the project
+---
 
-Once you have Visual Studio 2022 installed, you can open this folder in basically any C++ editor, e.g. [VS Code](https://code.visualstudio.com/) or [CLion](https://www.jetbrains.com/clion/) or [Visual Studio](https://visualstudio.microsoft.com/)
-- > _for VS Code, if you are not automatically prompted to install the [C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) and [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extensions, please install those and then close VS Code and then open this project as a folder in VS Code_
+## ⚙️ Configuration (`HomeAssistantLink.json`)
 
-You may need to click `OK` on a few windows, but the project should automatically run CMake!
+Before launching Skyrim, you **must** configure the `HomeAssistantLink.json` file located in `Data/SKSE/Plugins`.
 
-It will _automatically_ download [CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG) and everything you need to get started making your new plugin!
+```json
+{
+  "HomeAssistant": {
+    "Url": "[http://homeassistant.local:8123](http://homeassistant.local:8123)",  // REQUIRED: Your Home Assistant URL (e.g., [http://192.168.1.100:8123](http://192.168.1.100:8123))
+    "Token": "YOUR_HA_LONG_LIVED_TOKEN",     // REQUIRED: Your Home Assistant Long-Lived Access Token
+    "DebugMode": true                       // OPTIONAL: Set to 'true' to see plugin messages in Skyrim's console and more detailed file logs.
+  },
+  "Lights": [
+    "light.your_first_light_entity_id",     // REQUIRED: A list of Home Assistant light entity IDs you want to control.
+    "light.your_second_light_entity_id"     // Find these in Home Assistant Developer Tools -> States.
+  ],
+  "Scenarios": [
+    // This section will be for defining custom light triggers and outcomes.
+    // It's under active development and examples will be added soon!
+  ]
+}
 
-# Project setup
+HomeAssistant.Url: Replace with the full URL to your Home Assistant instance.
+HomeAssistant.Token: Replace with your Long-Lived Access Token. Generate this from your Home Assistant user profile (Profile -> Long-Lived Access Tokens -> Create Token). Ensure this token has permissions to control your lights.
+Lights: Populate this array with the exact entity_ids of the lights you want the mod to control. You can find these in Home Assistant under Developer Tools -> States (e.g., light.living_room_lamp).
+🚀 Usage
+Launch Skyrim through SKSE64.
+The plugin will initialize upon game load.
+Check your Documents\My Games\Skyrim Special Edition\SKSE\HomeAssistantLink.log file for detailed activity from the plugin.
+If DebugMode is enabled in your HomeAssistantLink.json, you will see some messages printed directly to the in-game console (open with ~).
+Currently, the lights configured in your JSON will turn Red when you enter combat in Skyrim, and Green when you exit combat.
+🚧 Building from Source (For Developers)
+If you wish to build this plugin yourself or contribute:
 
-By default, when this project compiles it will output a `.dll` for your SKSE plugin into the `build/` folder.
+Requirements:
+Visual Studio 2019/2022 (Community Edition is fine)
+vcpkg (correctly integrated with Visual Studio)
+Git
+Steps:
+Clone the Repository:
+Bash
 
-If you want to configure this project to output your plugin files
-into your Skyrim Special Edition's "`Data`" folder:
+git clone [https://github.com/fabianviol/HomeAssistantLink.git](https://github.com/fabianviol/HomeAssistantLink.git)
+cd HomeAssistantLink
+Ensure vcpkg.json is up-to-date:
+Verify your vcpkg.json includes all necessary dependencies: commonlibsse-ng-ae, cpr, nlohmann-json, and spdlog.
+Install Dependencies via vcpkg:
+Bash
 
-- Set the `SKYRIM_FOLDER` environment variable to the path of your Skyrim installation  
-  e.g. `C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition`
+vcpkg install
+This will fetch and build commonlibsse-ng-ae (and its dependencies like curl), cpr, nlohmann-json, and spdlog. This may take some time on the first run.
+Open in Visual Studio:
+Open the HomeAssistantLink.sln solution file in Visual Studio.
+Build the Project:
+Select the Release or Debug configuration (Debug is recommended for development).
+Build the solution (Build -> Build Solution or Ctrl+Shift+B).
+The HomeAssistantLink.dll and HomeAssistantLink.json (from a post-build copy step) will be generated in your project's x64\Debug or x64\Release folder. Copy these to your Skyrim Data/SKSE/Plugins directory.
+💡 Planned Features / To-Do
+Fully Customizable Scenarios: Implement the Scenarios section in HomeAssistantLink.json to allow users to define arbitrary triggers (e.g., health thresholds, game time, weather, specific locations) and corresponding light outcomes (colors, brightness, effects).
+More Trigger Types: Expand the range of game states that can act as triggers.
+Configuration Reload: Allow reloading the HomeAssistantLink.json without restarting Skyrim.
+Additional Home Assistant Services: Support more complex Home Assistant services beyond just light.turn_on.
+🤝 Contributing
+Contributions are welcome! Feel free to open issues for bug reports or feature requests, and pull requests if you want to contribute code.
 
-<img src="https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Setting%20Environment%20Variables/SKYRIM_FOLDER.png" height="150">
-
-If you want to configure this project to output your plugin files
-into your "`mods`" folder:  
-(_for Mod Organizer 2 or Vortex_)
-
-- Set the `SKYRIM_MODS_FOLDER` environment variable to the path of your mods folder:  
-  e.g. `C:\Users\<user>\AppData\Local\ModOrganizer\Skyrim Special Edition\mods`  
-  e.g. `C:\Users\<user>\AppData\Roaming\Vortex\skyrimse\mods`
-
-<img src="https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Setting%20Environment%20Variables/SKYRIM_MODS_FOLDER.png" height="150">
-
-## Finding Your "`mods`" Folder
-
-In Mod Organizer 2:
-
-> Click the `...` next to "Mods" to get the full folder path
-
-<img src="https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/MO2/MO2SettingsModsFolder.png" height="150">
-
-In Vortex:
-
-<img src="https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Vortex/VortexSettingsModsFolder.png" height="150">
-
-# Setup your own repository
-
-If you clone this template on GitHub, please:
-
-- Go into `LICENSE` and change the year and change `<YOUR NAME HERE>` to your name.
-- Go into `CODE_OF_CONDUCT.md` and change `<YOUR CONTACT INFO HERE>` to your contact information.
-
-The `LICENSE` defaults to using the [MIT License](https://choosealicense.com/licenses/mit/), a permissive license which is used by many popular Skyrim mods (_including [CommonLibSSE](https://github.com/Ryan-rsm-McKenzie/CommonLibSSE)_).
-
-The `CODE_OF_CONDUCT.md` defaults to using the [Contributor Covenant](https://www.contributor-covenant.org/), the most popular code of conduct for open source communities.
-
-If you'd like to know more about open source licenses, see:
-- [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-- [Choose an open source license](https://choosealicense.com/)
-
-# Sharing is Caring
-
-**If you use this template, PLEASE release your project as a public open source project.** 💖
-
-**Please do not release your SKSE plugin on Nexus/etc without making the source code available** \*
-
-> \* _You do you. But please help our community by sharing your source `<3`_
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
