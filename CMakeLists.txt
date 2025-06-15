@@ -75,4 +75,17 @@ if(DEFINED OUTPUT_FOLDER)
             VERBATIM
         )
     endif()
+
+        # Copy the HomeAssistantLink.json configuration file into the SKSE/Plugins/ folder
+    add_custom_command(
+        TARGET "${PROJECT_NAME}"
+        POST_BUILD
+        COMMAND "${CMAKE_COMMAND}" -E copy_if_different
+                "${CMAKE_CURRENT_SOURCE_DIR}/HomeAssistantLink.json" # Source path of your JSON
+                "${DLL_FOLDER}/HomeAssistantLink.json"             # Destination path
+        VERBATIM
+    )
+
 endif()
+
+
