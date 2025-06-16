@@ -5,9 +5,9 @@
     "DebugMode": true
   },
   "Lights": [
-    "light.rgbcw_lightbulb_ip_121",
-    "light.rgbcw_lightbulb_ip_122",
-    "light.rgbcw_lightbulb_ip_123"
+    "light.b40_ip_121",
+    "light.b40_ip_122",
+    "light.b40_ip_123"
   ],
   "Scenarios": [
     {
@@ -16,25 +16,23 @@
       "trigger": {
         "type": "always"
       },
-      "outcome": {
-        "rgb_color": [0, 255, 0],
-        "brightness_pct": 100,
-        "effect": "none"
-      }
-    },
-    {
-      "name": "Low Player Health",
-      "priority": 10,
-      "trigger": {
-        "type": "player_health_percentage",
-        "threshold": 25,
-        "operator": "less_than"
-      },
-      "outcome": {
-        "rgb_color": [255, 0, 0],
-        "brightness_pct": 100,
-        "effect": "flash"
-      }
+      "outcome": [
+        {
+          "entity_id": "light.b40_ip_121",
+          "rgb_color": [ 0, 255, 0 ],
+          "brightness_pct": 100
+        },
+        {
+          "entity_id": "light.b40_ip_122",
+          "rgb_color": [ 0, 255, 0 ],
+          "brightness_pct": 100
+        },
+        {
+          "entity_id": "light.b40_ip_123",
+          "rgb_color": [ 0, 255, 0 ],
+          "brightness_pct": 100
+        }
+      ]
     },
     {
       "name": "Player In Combat",
@@ -42,11 +40,29 @@
       "trigger": {
         "type": "player_in_combat"
       },
-      "outcome": {
-        "rgb_color": [255, 255, 0],
-        "brightness_pct": 100,
-        "effect": "flash"
-      }
+      "outcome": [
+        {
+          "entity_id": "light.b40_ip_121",
+          "rgb_color": [ 255, 0, 0 ], 
+          "brightness_pct": 100, 
+          "effect": "scene", 
+          "scene": "Alarm"
+        },
+        {
+          "entity_id": "light.b40_ip_122",
+          "rgb_color": [ 255, 0, 0 ], 
+          "brightness_pct": 100, 
+          "effect": "scene", 
+          "scene": "Alarm"
+        },
+        {
+          "entity_id": "light.b40_ip_123",
+          "rgb_color": [ 255, 0, 0 ], 
+          "brightness_pct": 100, 
+          "effect": "scene", 
+          "scene": "Alarm"
+        }
+      ]
     },
     {
       "name": "Night Time (Game Hour)",
@@ -56,11 +72,23 @@
         "min_hour": 20,
         "max_hour": 6
       },
-      "outcome": {
-        "rgb_color": [10, 10, 50],
-        "brightness_pct": 20,
-        "effect": "none"
-      }
+      "outcome": [
+        {
+          "entity_id": "light.b40_ip_121",
+          "rgb_color": [ 0, 0, 255 ],
+          "brightness_pct": 100
+        },
+        {
+          "entity_id": "light.b40_ip_122",
+          "rgb_color": [ 0, 0, 255 ],
+          "brightness_pct": 100
+        },
+        {
+          "entity_id": "light.b40_ip_123",
+          "rgb_color": [ 0, 0, 255 ],
+          "brightness_pct": 100
+        }
+      ]
     }
   ]
 }
