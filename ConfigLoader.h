@@ -68,7 +68,7 @@ extern std::string g_HA_URL;
 extern std::string g_HA_TOKEN;
 extern std::vector<std::string> g_LIGHT_ENTITY_IDS;
 extern std::vector<Scenario> g_SCENARIOS;
-extern std::vector<RealLamp> g_realLamps;
+extern std::vector<RealLamp> g_RealLamps;
 extern bool g_DebugMode; 
 
 // Config loader

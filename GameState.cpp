@@ -143,7 +143,7 @@ void ExportGameData() {
 
         // Map in-game fire lights to real-world lamps (dynamic lighting!)
         auto dynamicLampStates =
-            MapInGameLightsToRealLamps(g_REAL_LAMPS, ingameLights, activeScenario->trigger.radius.value_or(400));
+            MapInGameLightsToRealLamps(g_RealLamps, ingameLights, activeScenario->trigger.radius.value_or(400));
 
         LogToFile_Debug("Dynamic lamp mapping for fires: " + std::to_string(dynamicLampStates.size()) + " lamps.");
         ApplyLightStates(dynamicLampStates);

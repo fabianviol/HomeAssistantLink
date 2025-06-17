@@ -1,5 +1,5 @@
 #include "LampMapping.h"
-
+#include "GameState.h" 
 #include <algorithm>
 #include <cmath>
 

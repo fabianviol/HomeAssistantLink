@@ -21,7 +21,7 @@ struct NearbyLightInfo {
     float brightness;
 };
 
-extern std::vector<RealLamp> g_REAL_LAMPS;
+extern std::vector<RealLamp> g_RealLamps;
 
 // Utility to load all light defs from JSON (declaration)
 bool LoadSkyrimLightsDatabase(const std::string& path);

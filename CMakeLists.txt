@@ -44,7 +44,8 @@ add_commonlibsse_plugin(${PROJECT_NAME} SOURCES plugin.cpp
                                                 ConfigLoader.cpp
                                                 LightManager.cpp
                                                 GameState.cpp
-                                                SkyrimLightsDB.cpp 
+                                                SkyrimLightsDB.cpp
+                                                LampMapping.cpp
 ) 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23) # <--- use C++23 standard
 target_precompile_headers(${PROJECT_NAME} PRIVATE PCH.h) # <--- PCH.h is required!

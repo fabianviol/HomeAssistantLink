@@ -14,7 +14,7 @@ std::string g_HA_URL;
 std::string g_HA_TOKEN;
 std::vector<std::string> g_LIGHT_ENTITY_IDS;
 std::vector<Scenario> g_SCENARIOS;
-std::vector<RealLamp> g_realLamps;
+std::vector<RealLamp> g_RealLamps;
 bool g_DebugMode = false;  
 
 // Function to get the path of the current DLL (your plugin)
@@ -107,7 +107,7 @@ bool LoadConfiguration() {
         }
 
         // --- NEW: Parse real lamp positions for directional lighting ---
-        g_realLamps.clear();
+        g_RealLamps.clear();
         if (config.contains("Lights") && config["Lights"].is_array()) {
             for (const auto &lampJson : config["Lights"]) {
                 if (!lampJson.contains("entity_id") || !lampJson.contains("position")) continue;
@@ -117,14 +117,14 @@ bool LoadConfiguration() {
                 lamp.position.x = pos.value("x", 0.0f);
                 lamp.position.y = pos.value("y", 0.0f);
                 lamp.position.z = pos.value("z", 0.0f);
-                g_realLamps.push_back(lamp);
+                g_RealLamps.push_back(lamp);
             }
-            LogToFile_Info("Loaded " + std::to_string(g_realLamps.size()) +
+            LogToFile_Info("Loaded " + std::to_string(g_RealLamps.size()) +
                            " lamp positions for directional lighting.");
         } else {
             LogToFile_Warn(
                 "'Lights' array not found or not an array for lamp positions. Directional lighting will be disabled.");
-            g_realLamps.clear();
+            g_RealLamps.clear();
         }
 
         // --- NEW SECTION: Read Scenarios array with 'inherit' support ---
