@@ -1,0 +1,6865 @@
+[
+  {
+    "formID": "00012FD6",
+    "editorID": "MagicLightWhite01",
+    "name": "",
+    "color": { "r": 201, "g": 225, "b": 228 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00013234",
+    "editorID": "TestGrantIntLightWhite",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000137D9",
+    "editorID": "TestLightingBlue",
+    "name": "",
+    "color": { "r": 92, "g": 175, "b": 237 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00013CA1",
+    "editorID": "TestPurkeyOmni",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00013E86",
+    "editorID": "TestCoryYellow01",
+    "name": "",
+    "color": { "r": 255, "g": 224, "b": 151 },
+    "radius": 256,
+    "flags": "",
+    "fade": 0.800000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00013FD4",
+    "editorID": "TestCoryLightOrange",
+    "name": "",
+    "color": { "r": 140, "g": 70, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00013FE9",
+    "editorID": "TestCoryLightBlue",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000140EC",
+    "editorID": "MagicLightFireInHand",
+    "name": "",
+    "color": { "r": 249, "g": 216, "b": 153 },
+    "radius": 36,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018E23",
+    "editorID": "TestShadowOmniDirectional",
+    "name": "",
+    "color": { "r": 255, "g": 224, "b": 151 },
+    "radius": 256,
+    "flags": "",
+    "fade": 0.800000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001B7C2",
+    "editorID": "DarylLightOrangeShadow",
+    "name": "",
+    "color": { "r": 125, "g": 70, "b": 15 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001CBB3",
+    "editorID": "MagicLightFireball01",
+    "name": "",
+    "color": { "r": 251, "g": 162, "b": 96 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.200000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001D4EC",
+    "editorID": "Torch01",
+    "name": "Torch",
+    "color": { "r": 250, "g": 190, "b": 131 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00021660",
+    "editorID": "MagicLightFireBarrier01",
+    "name": "",
+    "color": { "r": 251, "g": 162, "b": 96 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.200000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000224B0",
+    "editorID": "AAAPurkeyBlueDark01",
+    "name": "",
+    "color": { "r": 22, "g": 92, "b": 126 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000253D4",
+    "editorID": "MagicLightFPSFire",
+    "name": "",
+    "color": { "r": 249, "g": 216, "b": 153 },
+    "radius": 20,
+    "flags": "",
+    "fade": 4.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018125",
+    "editorID": "MagicLightWard01",
+    "name": "",
+    "color": { "r": 140, "g": 198, "b": 244 },
+    "radius": 135,
+    "flags": "",
+    "fade": 1.100000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00020BF4",
+    "editorID": "MagicLightFrost01",
+    "name": "",
+    "color": { "r": 152, "g": 203, "b": 222 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.200000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002C857",
+    "editorID": "BleakFallsWhiteOmniShadow",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EDEC",
+    "editorID": "BleakFallsSunlight01",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0002EDED",
+    "editorID": "BleakFallsTorchlight01",
+    "name": "",
+    "color": { "r": 253, "g": 201, "b": 91 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EDF0",
+    "editorID": "BleakFallsSunlightBounce01NS",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0002EDF5",
+    "editorID": "BleakFallsTorchlight01NS",
+    "name": "",
+    "color": { "r": 241, "g": 205, "b": 122 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EDF7",
+    "editorID": "BleakFallsSunlightOmniNS01",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0002EDFC",
+    "editorID": "BleakFallsDraugrTorch01",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EE00",
+    "editorID": "BleakFallsDraugrTorch01NS",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EE04",
+    "editorID": "BleakFallsCandleLight01",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EE05",
+    "editorID": "BleakFallsCandleLight01NS",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002EE07",
+    "editorID": "BleakFallsDraugrTorch01Spot",
+    "name": "",
+    "color": { "r": 248, "g": 153, "b": 48 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002F363",
+    "editorID": "BleakFallsDraugrTorch02",
+    "name": "",
+    "color": { "r": 247, "g": 168, "b": 49 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002F364",
+    "editorID": "BleakFallsDraugrTorch02ns",
+    "name": "",
+    "color": { "r": 247, "g": 168, "b": 49 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002F37B",
+    "editorID": "BleakFallsSunlight01Omni",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0002F3EF",
+    "editorID": "MagicLightWardHand01",
+    "name": "",
+    "color": { "r": 140, "g": 198, "b": 244 },
+    "radius": 50,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00032DAA",
+    "editorID": "MagicLightFrostHand01",
+    "name": "",
+    "color": { "r": 152, "g": 203, "b": 222 },
+    "radius": 50,
+    "flags": "",
+    "fade": 1.600000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00038C1C",
+    "editorID": "MagicVoicePush01",
+    "name": "",
+    "color": { "r": 54, "g": 78, "b": 120 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00038C1D",
+    "editorID": "MagicVoicePush02",
+    "name": "",
+    "color": { "r": 115, "g": 136, "b": 172 },
+    "radius": 300,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00038C1E",
+    "editorID": "MagicVoicePush03",
+    "name": "",
+    "color": { "r": 134, "g": 151, "b": 191 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000395FE",
+    "editorID": "BleakFallsSunlight02",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00039C4C",
+    "editorID": "TestGrantIntLightSpotSun",
+    "name": "",
+    "color": { "r": 215, "g": 206, "b": 189 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.600000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00039C4E",
+    "editorID": "TestGrantIntLightBounce",
+    "name": "",
+    "color": { "r": 154, "g": 149, "b": 122 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00039C58",
+    "editorID": "TestGrantLightBlue",
+    "name": "",
+    "color": { "r": 139, "g": 170, "b": 180 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00039E0E",
+    "editorID": "TestGrantCandleLight01NS",
+    "name": "",
+    "color": { "r": 199, "g": 145, "b": 90 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.300000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00039EEA",
+    "editorID": "TestGrantLightCampFire01",
+    "name": "",
+    "color": { "r": 226, "g": 140, "b": 63 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001EEB5",
+    "editorID": "MS06specialLightHemisphere",
+    "name": "",
+    "color": { "r": 0, "g": 64, "b": 128 },
+    "radius": 256,
+    "flags": "",
+    "fade": 10.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00036343",
+    "editorID": "Torch01Shadow",
+    "name": "Torch",
+    "color": { "r": 248, "g": 170, "b": 92 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003BA90",
+    "editorID": "MagicLightSummon01",
+    "name": "",
+    "color": { "r": 51, "g": 43, "b": 210 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003C3E1",
+    "editorID": "TestLightingViolet",
+    "name": "",
+    "color": { "r": 139, "g": 134, "b": 247 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003C5A5",
+    "editorID": "BleakFallsSunlight01NS",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003C5A6",
+    "editorID": "BleakFallsSunlight01OmniNS",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003C5A7",
+    "editorID": "BleakFallsSunlightBounce01Shadow",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003CDFA",
+    "editorID": "SummonTargetFXLight",
+    "name": "",
+    "color": { "r": 79, "g": 66, "b": 232 },
+    "radius": 120,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003CDFB",
+    "editorID": "SummonTargetFXLightAnim",
+    "name": "",
+    "color": { "r": 0, "g": 0, "b": 0 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003F1B5",
+    "editorID": "MagicLightHealHand01",
+    "name": "",
+    "color": { "r": 232, "g": 211, "b": 168 },
+    "radius": 50,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003FA58",
+    "editorID": "MagicLightLightSpell01",
+    "name": "",
+    "color": { "r": 129, "g": 175, "b": 226 },
+    "radius": 450,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00041F09",
+    "editorID": "MagicLightLightSpellHand01",
+    "name": "",
+    "color": { "r": 191, "g": 215, "b": 240 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001E013",
+    "editorID": "MagicLightAltPosHand01",
+    "name": "",
+    "color": { "r": 44, "g": 197, "b": 89 },
+    "radius": 25,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00028530",
+    "editorID": "MagicLightInvisHand01",
+    "name": "",
+    "color": { "r": 95, "g": 84, "b": 186 },
+    "radius": 25,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002A601",
+    "editorID": "dunAzurasStarLightBlue",
+    "name": "",
+    "color": { "r": 191, "g": 128, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004C6DB",
+    "editorID": "MagicLightTurnUndead01",
+    "name": "",
+    "color": { "r": 156, "g": 159, "b": 188 },
+    "radius": 190,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004C6DC",
+    "editorID": "MagicLightTurnUndeadHand01",
+    "name": "",
+    "color": { "r": 156, "g": 159, "b": 188 },
+    "radius": 45,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004D3F6",
+    "editorID": "MagicLightTurnUndead02",
+    "name": "",
+    "color": { "r": 116, "g": 140, "b": 205 },
+    "radius": 280,
+    "flags": "",
+    "fade": 1.200000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004E224",
+    "editorID": "MagicLightHealMystHand01",
+    "name": "",
+    "color": { "r": 125, "g": 103, "b": 216 },
+    "radius": 50,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004E807",
+    "editorID": "TestGrantLightBlue2",
+    "name": "",
+    "color": { "r": 154, "g": 186, "b": 197 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0004E809",
+    "editorID": "MagicLightTurnUndeadArea",
+    "name": "",
+    "color": { "r": 96, "g": 136, "b": 204 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00056ACA",
+    "editorID": "MagicLightShockProjectile01",
+    "name": "",
+    "color": { "r": 146, "g": 136, "b": 230 },
+    "radius": 360,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00057A43",
+    "editorID": "SolitudeInnWindowYDefault",
+    "name": "",
+    "color": { "r": 240, "g": 240, "b": 221 },
+    "radius": 224,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00057A6B",
+    "editorID": "SolitudeInteriorLightLG",
+    "name": "",
+    "color": { "r": 255, "g": 250, "b": 240 },
+    "radius": 320,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00057C68",
+    "editorID": "MagicLightShockHand",
+    "name": "",
+    "color": { "r": 92, "g": 106, "b": 228 },
+    "radius": 30,
+    "flags": "",
+    "fade": 1.700000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059A77",
+    "editorID": "BthardamzWorldLightBottom01NS",
+    "name": "",
+    "color": { "r": 248, "g": 153, "b": 48 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059A78",
+    "editorID": "BthardamzWorldLightTop01NS",
+    "name": "",
+    "color": { "r": 3, "g": 92, "b": 122 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059A70",
+    "editorID": "FarmSpotlight01",
+    "name": "",
+    "color": { "r": 247, "g": 244, "b": 242 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 45.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059A93",
+    "editorID": "FarmInteriorLight01",
+    "name": "",
+    "color": { "r": 198, "g": 162, "b": 100 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059B5F",
+    "editorID": "FarmInteriorBounce01",
+    "name": "",
+    "color": { "r": 193, "g": 185, "b": 168 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00059B71",
+    "editorID": "FarmInteriorFireLight01",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005C009",
+    "editorID": "FarmInteriorShadowLight01",
+    "name": "",
+    "color": { "r": 198, "g": 162, "b": 100 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00036AA4",
+    "editorID": "BleakFallsSunlight02Hemi",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000576E5",
+    "editorID": "SolitudeInnLight02XLg",
+    "name": "",
+    "color": { "r": 239, "g": 230, "b": 192 },
+    "radius": 384,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000636D2",
+    "editorID": "SolitudeInnLight07",
+    "name": "",
+    "color": { "r": 193, "g": 147, "b": 104 },
+    "radius": 320,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000655EB",
+    "editorID": "BleakFallsFungus01",
+    "name": "",
+    "color": { "r": 129, "g": 252, "b": 206 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000655EC",
+    "editorID": "BleakFallsFungus01NS",
+    "name": "",
+    "color": { "r": 129, "g": 252, "b": 206 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00065628",
+    "editorID": "BleakFallsCandleLight01NSTESTTEST",
+    "name": "",
+    "color": { "r": 4, "g": 255, "b": 17 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006ACEE",
+    "editorID": "SolitudeInteriorLight01NEW",
+    "name": "",
+    "color": { "r": 255, "g": 250, "b": 240 },
+    "radius": 288,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006AF07",
+    "editorID": "BleakFallsDraugrTorchDesat01",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006B110",
+    "editorID": "MagicLightNightEyeHand01",
+    "name": "",
+    "color": { "r": 112, "g": 151, "b": 243 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006EBC9",
+    "editorID": "MagicLightParalyze",
+    "name": "",
+    "color": { "r": 174, "g": 218, "b": 148 },
+    "radius": 190,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006EBCC",
+    "editorID": "MagicLightParalyzeHand",
+    "name": "",
+    "color": { "r": 157, "g": 230, "b": 136 },
+    "radius": 45,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006F799",
+    "editorID": "MagicLightSummonBan01",
+    "name": "",
+    "color": { "r": 83, "g": 49, "b": 130 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006FF42",
+    "editorID": "SolitudeInnLight02Sm",
+    "name": "",
+    "color": { "r": 226, "g": 217, "b": 148 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000717CE",
+    "editorID": "dunUstengravDragonSwitchLight",
+    "name": "",
+    "color": { "r": 255, "g": 47, "b": 23 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007331B",
+    "editorID": "MagicLightIllusionPosHand01",
+    "name": "",
+    "color": { "r": 150, "g": 224, "b": 204 },
+    "radius": 40,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007331E",
+    "editorID": "MagicLightIllusionPosProjectile01",
+    "name": "",
+    "color": { "r": 84, "g": 205, "b": 172 },
+    "radius": 200,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00073C32",
+    "editorID": "WRTempleofKLightShadow",
+    "name": "",
+    "color": { "r": 239, "g": 236, "b": 220 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.100000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0007479A",
+    "editorID": "MagicLightIllusionNegHand01",
+    "name": "",
+    "color": { "r": 244, "g": 107, "b": 83 },
+    "radius": 30,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007479B",
+    "editorID": "MagicLightIllusionNegProjectile01",
+    "name": "",
+    "color": { "r": 217, "g": 72, "b": 72 },
+    "radius": 200,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00074ED2",
+    "editorID": "WRInteriorLightYellow",
+    "name": "",
+    "color": { "r": 221, "g": 199, "b": 162 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00074ED6",
+    "editorID": "WRInteriorLightBounce01",
+    "name": "",
+    "color": { "r": 214, "g": 203, "b": 171 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075ACB",
+    "editorID": "MiddenTreoyBlueLightPulse",
+    "name": "",
+    "color": { "r": 0, "g": 35, "b": 70 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075C32",
+    "editorID": "SolitudeInnFiretDefault",
+    "name": "",
+    "color": { "r": 184, "g": 96, "b": 7 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0002016B",
+    "editorID": "MagicLightTelekinesisHand01",
+    "name": "",
+    "color": { "r": 172, "g": 90, "b": 40 },
+    "radius": 25,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003F29D",
+    "editorID": "BleakFallsCandleLight01NSDesat",
+    "name": "",
+    "color": { "r": 255, "g": 247, "b": 210 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005D948",
+    "editorID": "WRLightFire01",
+    "name": "",
+    "color": { "r": 209, "g": 185, "b": 126 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005D9B3",
+    "editorID": "WRShadowDirectional",
+    "name": "",
+    "color": { "r": 244, "g": 242, "b": 232 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0006ED46",
+    "editorID": "WRInteriorLightBrite01",
+    "name": "",
+    "color": { "r": 235, "g": 221, "b": 199 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006ED58",
+    "editorID": "FXLightBlueGlow",
+    "name": "",
+    "color": { "r": 125, "g": 151, "b": 243 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006ED65",
+    "editorID": "BleakFallsSunlightBounceAmb01NS",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0006ED6F",
+    "editorID": "FXLightBrightBluishLight",
+    "name": "",
+    "color": { "r": 213, "g": 237, "b": 244 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007274C",
+    "editorID": "FXLightWhiteBasic",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00072759",
+    "editorID": "LightSpellLightStatic",
+    "name": "",
+    "color": { "r": 129, "g": 175, "b": 226 },
+    "radius": 450,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075D7B",
+    "editorID": "WRInteriorLightBlue",
+    "name": "",
+    "color": { "r": 194, "g": 218, "b": 226 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075DCF",
+    "editorID": "BleakFallsSunlightBounceAmbWarmNS",
+    "name": "",
+    "color": { "r": 193, "g": 200, "b": 198 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00075DE4",
+    "editorID": "BleakFallsSunlightBlueOmniNS",
+    "name": "",
+    "color": { "r": 181, "g": 214, "b": 251 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00077083",
+    "editorID": "SolitudeInnLight03FireMd",
+    "name": "",
+    "color": { "r": 131, "g": 75, "b": 24 },
+    "radius": 176,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00077761",
+    "editorID": "DweLightFireLamp01",
+    "name": "",
+    "color": { "r": 254, "g": 209, "b": 148 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00077788",
+    "editorID": "CaveLightPlantsBounced01",
+    "name": "",
+    "color": { "r": 105, "g": 112, "b": 58 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007779A",
+    "editorID": "TestGrantLightRainColor",
+    "name": "",
+    "color": { "r": 102, "g": 134, "b": 147 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00077FCE",
+    "editorID": "WRFireLightShadow01",
+    "name": "",
+    "color": { "r": 216, "g": 170, "b": 101 },
+    "radius": 768,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007BA11",
+    "editorID": "WRUderforgeOmniBrightShadow",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008180F",
+    "editorID": "ShadowDepthBiasTestLight",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00081810",
+    "editorID": "ShadowDepthBiasTestLightSpot",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00081811",
+    "editorID": "ShadowDepthBiasTestLightHemi",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000877A6",
+    "editorID": "SolitudeSunlightShadowXLG",
+    "name": "",
+    "color": { "r": 232, "g": 232, "b": 222 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003B9B1",
+    "editorID": "FireLightOilTrapHazard",
+    "name": "",
+    "color": { "r": 248, "g": 169, "b": 90 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.600000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008799C",
+    "editorID": "DwarvenMushroomLight",
+    "name": "",
+    "color": { "r": 128, "g": 253, "b": 240 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000879AC",
+    "editorID": "DwarvenOmniLight",
+    "name": "",
+    "color": { "r": 182, "g": 231, "b": 180 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000879AD",
+    "editorID": "DwarvenOmni_ShadLight",
+    "name": "",
+    "color": { "r": 200, "g": 223, "b": 176 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000879AF",
+    "editorID": "DwarvenOmni_NoFlickerLight",
+    "name": "",
+    "color": { "r": 191, "g": 218, "b": 165 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088237",
+    "editorID": "DefaultCandleLight01",
+    "name": "",
+    "color": { "r": 236, "g": 223, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088238",
+    "editorID": "DefaultCandleLight01NS",
+    "name": "",
+    "color": { "r": 236, "g": 223, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088241",
+    "editorID": "DefaultCandleLight01NSDesat",
+    "name": "",
+    "color": { "r": 242, "g": 240, "b": 223 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088242",
+    "editorID": "DefaultTorch01",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088243",
+    "editorID": "DefaultTorch01NS",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088244",
+    "editorID": "DefaultTorch01Spot",
+    "name": "",
+    "color": { "r": 228, "g": 152, "b": 67 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088245",
+    "editorID": "DefaultSunlight01",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00088246",
+    "editorID": "DefaultSunlight01NS",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00088247",
+    "editorID": "DefaultSunlight01Omni",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00088248",
+    "editorID": "DefaultSunlight01OmniNS",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00088249",
+    "editorID": "DefaultSunlightBlueOmniNS",
+    "name": "",
+    "color": { "r": 181, "g": 214, "b": 251 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0008824A",
+    "editorID": "DefaultSunlightBounce01Shadow",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0008824B",
+    "editorID": "DefaultSunlightBounceAmb01NS",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0008824C",
+    "editorID": "DefaultSunlightBounceAmbWarmNS",
+    "name": "",
+    "color": { "r": 193, "g": 200, "b": 198 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0008824D",
+    "editorID": "DefaultWhiteOmniShadow",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008824E",
+    "editorID": "DefaultTorch01HalfOmni",
+    "name": "",
+    "color": { "r": 230, "g": 158, "b": 79 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088250",
+    "editorID": "DefaultTorch01Desat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088251",
+    "editorID": "DefaultTorch01HalfOmniDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088252",
+    "editorID": "DefaultTorch01NSDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088253",
+    "editorID": "DefaultTorch01SpotDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088C9A",
+    "editorID": "DwarvenOmni_Warm",
+    "name": "",
+    "color": { "r": 222, "g": 167, "b": 92 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00088CF3",
+    "editorID": "DwarvenOmni_WarmShad",
+    "name": "",
+    "color": { "r": 222, "g": 167, "b": 92 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000897B3",
+    "editorID": "DwarvenOmni_Desat_ShadLight",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000897B4",
+    "editorID": "DwarvenOmniLight_Desat",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000897B5",
+    "editorID": "DwarvenOmni_Desat_NoFlickerLight",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000897C9",
+    "editorID": "DwarvenOmni_Spot",
+    "name": "",
+    "color": { "r": 183, "g": 213, "b": 153 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00089AF6",
+    "editorID": "DwarvenOmni_Desat_ShadLight_LessMove",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00089F27",
+    "editorID": "MagicLightFireStormHand",
+    "name": "",
+    "color": { "r": 242, "g": 172, "b": 102 },
+    "radius": 45,
+    "flags": "",
+    "fade": 1.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008AD5E",
+    "editorID": "Ilinaltas_OmniLight_Blue",
+    "name": "",
+    "color": { "r": 94, "g": 133, "b": 162 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008AD60",
+    "editorID": "Ilinaltas_OmniLight_Warm",
+    "name": "",
+    "color": { "r": 208, "g": 163, "b": 117 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008CB6F",
+    "editorID": "Ilinaltas_OmniLight_Shadows",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008CB70",
+    "editorID": "Ilinaltas_OmniLight_Blue_Shadows",
+    "name": "",
+    "color": { "r": 106, "g": 135, "b": 149 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008CB79",
+    "editorID": "Ilinaltas_OmniLight_Warm_Shadows1",
+    "name": "",
+    "color": { "r": 225, "g": 181, "b": 140 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008CBA7",
+    "editorID": "Ilinalta_OrangeFlicker",
+    "name": "",
+    "color": { "r": 180, "g": 114, "b": 41 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008CC7C",
+    "editorID": "Ilinaltas_OmniLight_Whiter",
+    "name": "",
+    "color": { "r": 213, "g": 231, "b": 240 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E788",
+    "editorID": "MarkarthGuardTower_OmniLight",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E796",
+    "editorID": "IceCave_Blue_Omni",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E797",
+    "editorID": "IceCave_Blue_Omni_Shadow",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E798",
+    "editorID": "IceCavern_OmniLight_Warm",
+    "name": "",
+    "color": { "r": 199, "g": 124, "b": 88 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E799",
+    "editorID": "IceCavern_Warm_OmniLight_Shadow",
+    "name": "",
+    "color": { "r": 247, "g": 174, "b": 94 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E79A",
+    "editorID": "IceCavern_Sunlight",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E7A0",
+    "editorID": "IceCavern_OrangeFlicker",
+    "name": "",
+    "color": { "r": 208, "g": 102, "b": 51 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E7A1",
+    "editorID": "IceCavern_OrangeFlicker_Shadow",
+    "name": "",
+    "color": { "r": 208, "g": 102, "b": 51 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0008E7DC",
+    "editorID": "IceCavern_SunlightSpot",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000907E5",
+    "editorID": "CharusEggLight",
+    "name": "",
+    "color": { "r": 104, "g": 179, "b": 253 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00092500",
+    "editorID": "CidhnaMine_OrangeFlicker",
+    "name": "",
+    "color": { "r": 166, "g": 100, "b": 55 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00092503",
+    "editorID": "CidhnaMine_OrangeFlickerShad",
+    "name": "",
+    "color": { "r": 139, "g": 111, "b": 82 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009250B",
+    "editorID": "Cidhna_OmniLight_Warm",
+    "name": "",
+    "color": { "r": 82, "g": 69, "b": 58 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00092ADE",
+    "editorID": "Cidhna_OmniLight_WarmShad",
+    "name": "",
+    "color": { "r": 94, "g": 84, "b": 47 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00094E65",
+    "editorID": "Alikr_OrangeFlicker",
+    "name": "",
+    "color": { "r": 142, "g": 104, "b": 79 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00094E66",
+    "editorID": "Alikr_OmniLight_Warm",
+    "name": "",
+    "color": { "r": 100, "g": 89, "b": 70 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00094E67",
+    "editorID": "Alikr_OmniLight_WarmShad",
+    "name": "",
+    "color": { "r": 94, "g": 84, "b": 47 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00094E68",
+    "editorID": "Alikr_OrangeFlickerShad",
+    "name": "",
+    "color": { "r": 142, "g": 104, "b": 79 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00094E6B",
+    "editorID": "CaveSunlight",
+    "name": "",
+    "color": { "r": 254, "g": 237, "b": 235 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00094E6E",
+    "editorID": "CaveSunlight_bounce",
+    "name": "",
+    "color": { "r": 252, "g": 249, "b": 237 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000958C7",
+    "editorID": "IceCavern_Sunlight2",
+    "name": "",
+    "color": { "r": 108, "g": 101, "b": 94 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009A9CD",
+    "editorID": "HHLight01",
+    "name": "",
+    "color": { "r": 251, "g": 255, "b": 230 },
+    "radius": 380,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009A9D4",
+    "editorID": "HHnnLightWin01",
+    "name": "",
+    "color": { "r": 248, "g": 236, "b": 209 },
+    "radius": 192,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009A9E0",
+    "editorID": "HHnnLightWin02",
+    "name": "",
+    "color": { "r": 247, "g": 245, "b": 210 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009A9F1",
+    "editorID": "HHIntLightFireSm",
+    "name": "",
+    "color": { "r": 198, "g": 113, "b": 36 },
+    "radius": 124,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009B1DB",
+    "editorID": "Ilinaltas_OmniLight_Dim",
+    "name": "",
+    "color": { "r": 33, "g": 37, "b": 41 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009CB00",
+    "editorID": "Alikr_OmniLight_WarmFlicker",
+    "name": "",
+    "color": { "r": 100, "g": 89, "b": 70 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009D745",
+    "editorID": "Sun_Markarth",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0009DAE8",
+    "editorID": "HHShadowOmni01",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 756,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0009EE7C",
+    "editorID": "MagicLightDragonFire",
+    "name": "",
+    "color": { "r": 251, "g": 162, "b": 96 },
+    "radius": 2000,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A0E74",
+    "editorID": "BlackDoorLightExterior01NS",
+    "name": "",
+    "color": { "r": 231, "g": 1, "b": 1 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A0F3E",
+    "editorID": "HHIntLightFireMd",
+    "name": "",
+    "color": { "r": 180, "g": 120, "b": 54 },
+    "radius": 176,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A0F3F",
+    "editorID": "HHIntLightFireLG",
+    "name": "",
+    "color": { "r": 184, "g": 131, "b": 50 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A0F4D",
+    "editorID": "HHnnLightWin03",
+    "name": "",
+    "color": { "r": 247, "g": 245, "b": 210 },
+    "radius": 320,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A56A9",
+    "editorID": "SolitudeInnFirePlacesShadowDefault",
+    "name": "",
+    "color": { "r": 225, "g": 121, "b": 51 },
+    "radius": 384,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A56AE",
+    "editorID": "SolitudeInteriorLightBlue",
+    "name": "",
+    "color": { "r": 180, "g": 220, "b": 233 },
+    "radius": 288,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A85E2",
+    "editorID": "HHShadowOmni02",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000AAEB4",
+    "editorID": "FXLightBleakDraugrTorch",
+    "name": "",
+    "color": { "r": 190, "g": 131, "b": 65 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000ABEFE",
+    "editorID": "MagicLightAbsorbHealthProjectile",
+    "name": "",
+    "color": { "r": 250, "g": 18, "b": 5 },
+    "radius": 350,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000ABF05",
+    "editorID": "MagicLightAbsorbGreenProjectile",
+    "name": "",
+    "color": { "r": 2, "g": 136, "b": 79 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000ABF06",
+    "editorID": "MagicLightAbsorbBlueProjectile",
+    "name": "",
+    "color": { "r": 10, "g": 68, "b": 205 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000AD392",
+    "editorID": "MagicLightAuraWhisperProjectile",
+    "name": "",
+    "color": { "r": 84, "g": 5, "b": 1 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000AE2B3",
+    "editorID": "DwarvenOmni_Spot_Narrow",
+    "name": "",
+    "color": { "r": 183, "g": 213, "b": 153 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 50.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000AF8BA",
+    "editorID": "LightCampFire01",
+    "name": "",
+    "color": { "r": 226, "g": 140, "b": 63 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B15EE",
+    "editorID": "LightForgeFire01",
+    "name": "",
+    "color": { "r": 226, "g": 140, "b": 63 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B215E",
+    "editorID": "RiftenLight01",
+    "name": "",
+    "color": { "r": 167, "g": 152, "b": 131 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B2160",
+    "editorID": "RiftenLight01Shad",
+    "name": "",
+    "color": { "r": 175, "g": 158, "b": 122 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B2FAF",
+    "editorID": "RiftenLight01ShadSpot",
+    "name": "",
+    "color": { "r": 168, "g": 166, "b": 130 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B2FB4",
+    "editorID": "RiftenLight01NoFlicker",
+    "name": "",
+    "color": { "r": 167, "g": 152, "b": 131 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B3214",
+    "editorID": "RiftenLight01ShadNoFlicker",
+    "name": "",
+    "color": { "r": 175, "g": 158, "b": 122 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B33EA",
+    "editorID": "BlackDoorLightInterior01DesatNS",
+    "name": "",
+    "color": { "r": 164, "g": 68, "b": 68 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B33F0",
+    "editorID": "BleakFallsDraugrTorch01NS_MoveLess",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B33F2",
+    "editorID": "BleakFallsDraugrTorch01_HalfOmni",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B33F7",
+    "editorID": "BleakFallsCandleLight01_Flicker",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B3404",
+    "editorID": "BleakFallsWaterBounce01NS",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B3405",
+    "editorID": "BleakFallsWaterBounce01NS_MoveMore",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B345A",
+    "editorID": "DBFireLight01",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B345B",
+    "editorID": "DBFireLight01NS",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B346D",
+    "editorID": "DBCandlePost01NS",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B3472",
+    "editorID": "DBPostBounceLight01NS",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B3489",
+    "editorID": "BleakFallsWaterBounce01",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B348E",
+    "editorID": "DBPostBounceLight01",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B4257",
+    "editorID": "DA10GhostLights",
+    "name": "",
+    "color": { "r": 140, "g": 70, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B6466",
+    "editorID": "KorvanjundOrangeOmni",
+    "name": "",
+    "color": { "r": 105, "g": 70, "b": 35 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B6BCC",
+    "editorID": "DefaultCandleLight01Spot",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B7293",
+    "editorID": "KorvanljundBlueOmni",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B7470",
+    "editorID": "KorvanjundSunlight",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B7475",
+    "editorID": "KorvanJundOrangeShadowOmni",
+    "name": "",
+    "color": { "r": 117, "g": 70, "b": 23 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B79AF",
+    "editorID": "KorvanjundSunlightBounce",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B79FA",
+    "editorID": "MagicLightFrostBlizzard01",
+    "name": "",
+    "color": { "r": 125, "g": 181, "b": 236 },
+    "radius": 768,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B7DBC",
+    "editorID": "DefaultSunlight01Closer",
+    "name": "",
+    "color": { "r": 141, "g": 165, "b": 163 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B7DE5",
+    "editorID": "DefaultSunlightBounceAmb01",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B7DE6",
+    "editorID": "DefaultSunlightBounceAmb01Hemi",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B872E",
+    "editorID": "KorvanjundSunlightOmni",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B9E25",
+    "editorID": "FalmerBlueLight01",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E26",
+    "editorID": "FalmerBlueLight01NS",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E28",
+    "editorID": "FalmerBlueLightBounce01NS",
+    "name": "",
+    "color": { "r": 122, "g": 132, "b": 133 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E29",
+    "editorID": "FalmerBlueLightSuperSaturate01",
+    "name": "",
+    "color": { "r": 0, "g": 236, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E2A",
+    "editorID": "FalmerBlueLightSuperSaturate01NS",
+    "name": "",
+    "color": { "r": 0, "g": 236, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E82",
+    "editorID": "FalmerTorch01",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9E83",
+    "editorID": "FalmerTorch01NS",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9F27",
+    "editorID": "FalmerBlueLightSuperSaturate01NS_NoPortal",
+    "name": "",
+    "color": { "r": 0, "g": 236, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BA41F",
+    "editorID": "HelgenCandleLight01",
+    "name": "",
+    "color": { "r": 218, "g": 184, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BA420",
+    "editorID": "HelgenCandleLight01NS",
+    "name": "",
+    "color": { "r": 218, "g": 184, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BA421",
+    "editorID": "HelgenCandleLight01Spot",
+    "name": "",
+    "color": { "r": 220, "g": 217, "b": 209 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BB937",
+    "editorID": "KorvanjundTorchNS",
+    "name": "",
+    "color": { "r": 222, "g": 158, "b": 88 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BCC9D",
+    "editorID": "DefaultTorch01NS_Fast",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BCC9E",
+    "editorID": "HelgenCandleLight01NS_Still",
+    "name": "",
+    "color": { "r": 218, "g": 184, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BCC9F",
+    "editorID": "DefaultTorch01NS_SuperFast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001F5B8",
+    "editorID": "DwarvenOmniLight_FlickerLess",
+    "name": "",
+    "color": { "r": 182, "g": 231, "b": 180 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001F8B0",
+    "editorID": "DefaultBlueBounceWater01NS",
+    "name": "",
+    "color": { "r": 121, "g": 203, "b": 234 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0001F8C9",
+    "editorID": "DwarvenOmniLight_Desat_NoMove",
+    "name": "",
+    "color": { "r": 231, "g": 253, "b": 208 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001FCD8",
+    "editorID": "DwarvenOmni_ShadLightHalfOmni",
+    "name": "",
+    "color": { "r": 200, "g": 223, "b": 176 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001FD9B",
+    "editorID": "DefaultBlueBounceWater01NS_MoveLess",
+    "name": "",
+    "color": { "r": 121, "g": 203, "b": 234 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003559C",
+    "editorID": "DefaultTorch01NS_NoMove",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00036365",
+    "editorID": "DefaultSunlightBluerOmniNS",
+    "name": "",
+    "color": { "r": 85, "g": 166, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00036464",
+    "editorID": "DefaultTorch01_Fast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00036B0D",
+    "editorID": "DefaultTorch01_SuperFast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000411C7",
+    "editorID": "ForelhostSunlight01",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 30.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00045D7B",
+    "editorID": "GreenPoisonGasLight",
+    "name": "",
+    "color": { "r": 85, "g": 232, "b": 103 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00048C2C",
+    "editorID": "BlackreachWater01NS",
+    "name": "",
+    "color": { "r": 104, "g": 236, "b": 251 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000592D9",
+    "editorID": "MagicLightShockHandBig",
+    "name": "",
+    "color": { "r": 120, "g": 132, "b": 233 },
+    "radius": 70,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005C677",
+    "editorID": "DefaultCandleLight01_NoMove",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005C70D",
+    "editorID": "DefaultCandleLight01_MoveLess",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005C777",
+    "editorID": "DefaultSunlight01Closer02",
+    "name": "",
+    "color": { "r": 141, "g": 165, "b": 163 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0005EAD6",
+    "editorID": "DefaultTorch01NS_NotPortalStrict",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0005EAE2",
+    "editorID": "DefaultSunlight01NS_NotPortalStrict",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000668F2",
+    "editorID": "DefaultCandleLight01_Desat",
+    "name": "",
+    "color": { "r": 242, "g": 240, "b": 223 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00068DEA",
+    "editorID": "DefaultCandleLight02Spot",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 120,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000691D2",
+    "editorID": "DefaultCandleLight01_DesatMoveLess",
+    "name": "",
+    "color": { "r": 242, "g": 240, "b": 223 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007531E",
+    "editorID": "TestGrantIntLightHurtBright",
+    "name": "",
+    "color": { "r": 236, "g": 247, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 4.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0007531F",
+    "editorID": "AAAGrantIntLightHurtBrightBounce",
+    "name": "",
+    "color": { "r": 107, "g": 128, "b": 160 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075347",
+    "editorID": "MagicLightReanimateHand",
+    "name": "",
+    "color": { "r": 11, "g": 75, "b": 196 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.100000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075477",
+    "editorID": "BorderWallSmoke01",
+    "name": "",
+    "color": { "r": 105, "g": 104, "b": 97 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00075489",
+    "editorID": "DefaultSunlight01Closer03",
+    "name": "",
+    "color": { "r": 141, "g": 165, "b": 163 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00079AB6",
+    "editorID": "DefaultCandleLight03Spot",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 120,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00090007",
+    "editorID": "IchorLight",
+    "name": "",
+    "color": { "r": 147, "g": 210, "b": 156 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000346CF",
+    "editorID": "DefaultTorch01_FastDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00035F62",
+    "editorID": "DefaultCandleLight01NSDesatNPS",
+    "name": "",
+    "color": { "r": 242, "g": 240, "b": 223 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00038A77",
+    "editorID": "DefaultTorch01NS_FastDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000172C4",
+    "editorID": "DefaultSunlightHalfOmni01",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FBF",
+    "editorID": "NocturnalLight",
+    "name": "",
+    "color": { "r": 133, "g": 148, "b": 205 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FE4",
+    "editorID": "RiftenLight01_Desat",
+    "name": "",
+    "color": { "r": 157, "g": 150, "b": 140 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FE5",
+    "editorID": "RiftenLight01Shad_Desat",
+    "name": "",
+    "color": { "r": 165, "g": 154, "b": 133 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FE9",
+    "editorID": "RiftenLight01ShadNoFlicker_Desat",
+    "name": "",
+    "color": { "r": 175, "g": 158, "b": 122 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FEA",
+    "editorID": "RiftenLight01ShadSpot_Desat",
+    "name": "",
+    "color": { "r": 157, "g": 156, "b": 140 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00018FED",
+    "editorID": "SolitudeInnLight07_Desat",
+    "name": "",
+    "color": { "r": 171, "g": 148, "b": 126 },
+    "radius": 320,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000194F3",
+    "editorID": "IceBounce01NS",
+    "name": "",
+    "color": { "r": 154, "g": 220, "b": 239 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000194F4",
+    "editorID": "IceCandleLight01",
+    "name": "",
+    "color": { "r": 236, "g": 223, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000194F5",
+    "editorID": "IceCandleLight01_Desat",
+    "name": "",
+    "color": { "r": 235, "g": 235, "b": 231 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000194F6",
+    "editorID": "IceCandleLight01_DesatMoveLess",
+    "name": "",
+    "color": { "r": 235, "g": 235, "b": 231 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019500",
+    "editorID": "IceCandleLight01_MoveLess",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019506",
+    "editorID": "IceCandleLight01_NoMove",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019507",
+    "editorID": "IceCandleLight01NS",
+    "name": "",
+    "color": { "r": 236, "g": 223, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001950B",
+    "editorID": "IceCandleLight01NSDesat",
+    "name": "",
+    "color": { "r": 235, "g": 235, "b": 231 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001950C",
+    "editorID": "IceSunlightBounceAmb01NS",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0001950D",
+    "editorID": "IceTorch01",
+    "name": "",
+    "color": { "r": 207, "g": 185, "b": 160 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001950E",
+    "editorID": "IceTorch01_Fast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001950F",
+    "editorID": "IceTorch01_FastDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019521",
+    "editorID": "IceTorch01_SuperFast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019526",
+    "editorID": "IceTorch01Desat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019527",
+    "editorID": "IceTorch01NS",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019528",
+    "editorID": "IceTorch01NS_Fast",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00019529",
+    "editorID": "IceTorch01NS_FastDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001952A",
+    "editorID": "IceTorch01NS_NoMove",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001952B",
+    "editorID": "IceTorch01NS_SuperFast",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001952C",
+    "editorID": "IceTorch01NSDesat",
+    "name": "",
+    "color": { "r": 208, "g": 157, "b": 100 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000195BC",
+    "editorID": "IceBounce01NSDesat",
+    "name": "",
+    "color": { "r": 174, "g": 251, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0003C415",
+    "editorID": "IceCavern_SunlightSpot02",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A2697",
+    "editorID": "IceTorch01NS_Saturate",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000A9280",
+    "editorID": "SleepingTreeCampMagicWaterLight",
+    "name": "",
+    "color": { "r": 86, "g": 79, "b": 151 },
+    "radius": 310,
+    "flags": "",
+    "fade": 0.700000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000B9522",
+    "editorID": "WRWindowFill",
+    "name": "",
+    "color": { "r": 205, "g": 218, "b": 217 },
+    "radius": 200,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9BE6",
+    "editorID": "WRCandlePulseShadow",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9BE7",
+    "editorID": "WRCandleFlickerNS",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 128,
+    "flags": "",
+    "fade": 1.700000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9BEE",
+    "editorID": "WRFireplaceFill",
+    "name": "",
+    "color": { "r": 227, "g": 185, "b": 98 },
+    "radius": 224,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000BBAE5",
+    "editorID": "WRFireLightNS",
+    "name": "",
+    "color": { "r": 216, "g": 170, "b": 101 },
+    "radius": 768,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C1D01",
+    "editorID": "DefaultTorch01NS_Saturate",
+    "name": "",
+    "color": { "r": 238, "g": 158, "b": 70 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C59DA",
+    "editorID": "IceSunlightBounceAmb01",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C59DB",
+    "editorID": "IceSunlightBounceAmb01Hemi",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C65CA",
+    "editorID": "SolitudeInnWindowtDefault",
+    "name": "",
+    "color": { "r": 186, "g": 200, "b": 226 },
+    "radius": 124,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C7735",
+    "editorID": "DefaultBlueBounceWater01NSDesat",
+    "name": "",
+    "color": { "r": 146, "g": 192, "b": 209 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C8126",
+    "editorID": "IceTorch01_Saturate",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C812D",
+    "editorID": "IceBloodPool01NS",
+    "name": "",
+    "color": { "r": 198, "g": 95, "b": 51 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C8134",
+    "editorID": "IceTorch01NS_SaturateMoveLess",
+    "name": "",
+    "color": { "r": 230, "g": 159, "b": 81 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C82AE",
+    "editorID": "WRShadowOmni",
+    "name": "",
+    "color": { "r": 244, "g": 242, "b": 232 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C82C6",
+    "editorID": "SovngardeBlueLight",
+    "name": "",
+    "color": { "r": 87, "g": 157, "b": 227 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C82C7",
+    "editorID": "SovngardeWarmLight",
+    "name": "Torch",
+    "color": { "r": 255, "g": 159, "b": 64 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CB902",
+    "editorID": "WindhelmFireLight01",
+    "name": "",
+    "color": { "r": 225, "g": 180, "b": 111 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CB92C",
+    "editorID": "WindhelmFireLightNS",
+    "name": "",
+    "color": { "r": 225, "g": 180, "b": 111 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CC84E",
+    "editorID": "SovngardeLightBounceNS",
+    "name": "",
+    "color": { "r": 242, "g": 202, "b": 119 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CC84F",
+    "editorID": "SovngardeShadowOmni",
+    "name": "",
+    "color": { "r": 140, "g": 183, "b": 225 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000CC850",
+    "editorID": "SovngardeLightOutside",
+    "name": "",
+    "color": { "r": 119, "g": 187, "b": 242 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CD016",
+    "editorID": "SolitudeInteriorLightBlueLG",
+    "name": "",
+    "color": { "r": 186, "g": 220, "b": 226 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CD065",
+    "editorID": "SolitudeInnFirePlacesDefault",
+    "name": "",
+    "color": { "r": 180, "g": 99, "b": 28 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CD48D",
+    "editorID": "WRChandlierFlickerShadow",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CE016",
+    "editorID": "SolitudeInnLight02Md",
+    "name": "",
+    "color": { "r": 239, "g": 230, "b": 192 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D13E7",
+    "editorID": "MagicLightReanimate1",
+    "name": "",
+    "color": { "r": 11, "g": 75, "b": 196 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D1878",
+    "editorID": "BleakFallsSunlight01NPS",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000D1947",
+    "editorID": "DefaultCandleLight01_DesatFXDark",
+    "name": "",
+    "color": { "r": 164, "g": 158, "b": 136 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D4809",
+    "editorID": "WRWindowFillWarm",
+    "name": "",
+    "color": { "r": 249, "g": 245, "b": 232 },
+    "radius": 200,
+    "flags": "",
+    "fade": 1.700000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D4887",
+    "editorID": "MagicLightFireballStorm01",
+    "name": "",
+    "color": { "r": 251, "g": 162, "b": 96 },
+    "radius": 860,
+    "flags": "",
+    "fade": 1.100000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D4C27",
+    "editorID": "SolitudeInnSunlightShadow",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000D4C29",
+    "editorID": "SolitudeInteriorLightBlueMD2",
+    "name": "",
+    "color": { "r": 186, "g": 220, "b": 226 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D7BD5",
+    "editorID": "MiddenRedEye01",
+    "name": "",
+    "color": { "r": 210, "g": 0, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D8F71",
+    "editorID": "FalmerPurple01NS",
+    "name": "",
+    "color": { "r": 130, "g": 85, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D8FBA",
+    "editorID": "BlackreachWater02NS",
+    "name": "",
+    "color": { "r": 103, "g": 189, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000DA06D",
+    "editorID": "SolitudeInteriorLighXtLG",
+    "name": "",
+    "color": { "r": 255, "g": 250, "b": 240 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DA626",
+    "editorID": "MarkarthFireLightShad",
+    "name": "",
+    "color": { "r": 207, "g": 152, "b": 90 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DA628",
+    "editorID": "MarkarthFireLight",
+    "name": "",
+    "color": { "r": 210, "g": 139, "b": 87 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DB9D2",
+    "editorID": "FalmerEpicMushroom01NS",
+    "name": "",
+    "color": { "r": 130, "g": 85, "b": 170 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DB9D5",
+    "editorID": "FalmerCityLight01NS",
+    "name": "",
+    "color": { "r": 238, "g": 83, "b": 17 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DB9DE",
+    "editorID": "FalmerCityLight02NS",
+    "name": "",
+    "color": { "r": 216, "g": 128, "b": 39 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DC20C",
+    "editorID": "MagicLightFrostSpray01",
+    "name": "",
+    "color": { "r": 152, "g": 190, "b": 222 },
+    "radius": 256,
+    "flags": "",
+    "fade": 0.850000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000DDF68",
+    "editorID": "dunMiddenMagicalLight",
+    "name": "",
+    "color": { "r": 114, "g": 141, "b": 130 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2018",
+    "editorID": "RannveigsTorch01NS_Fast",
+    "name": "",
+    "color": { "r": 219, "g": 132, "b": 89 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2019",
+    "editorID": "RannveigsTorch01",
+    "name": "",
+    "color": { "r": 219, "g": 132, "b": 89 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E203D",
+    "editorID": "RannveigsTorch01NS",
+    "name": "",
+    "color": { "r": 219, "g": 132, "b": 89 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2044",
+    "editorID": "RannveigsTorch01NS_NoMove",
+    "name": "",
+    "color": { "r": 219, "g": 132, "b": 89 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2149",
+    "editorID": "IceBounce01NSSaturate",
+    "name": "",
+    "color": { "r": 198, "g": 252, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000E2172",
+    "editorID": "AzuraBlue01",
+    "name": "",
+    "color": { "r": 22, "g": 92, "b": 126 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2173",
+    "editorID": "AzuraWhite01",
+    "name": "",
+    "color": { "r": 150, "g": 208, "b": 237 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2174",
+    "editorID": "AzuraPureWhite01",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2175",
+    "editorID": "AzuraSuperBlue01",
+    "name": "",
+    "color": { "r": 215, "g": 252, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E259C",
+    "editorID": "SolitudeInteriorLightSM",
+    "name": "",
+    "color": { "r": 240, "g": 240, "b": 221 },
+    "radius": 128,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000E2969",
+    "editorID": "WRCandleLightBounceAmb01Hemi",
+    "name": "",
+    "color": { "r": 234, "g": 219, "b": 157 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000E7555",
+    "editorID": "MagicLightShockProjectile03",
+    "name": "",
+    "color": { "r": 164, "g": 156, "b": 235 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 5.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001560F",
+    "editorID": "FrostmereCryptLight01NS",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00015610",
+    "editorID": "FrostmereCryptLight02NS",
+    "name": "",
+    "color": { "r": 55, "g": 200, "b": 99 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003611F",
+    "editorID": "SolitudeInnCandleDefault",
+    "name": "",
+    "color": { "r": 226, "g": 207, "b": 150 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0003845F",
+    "editorID": "UstengravSunlight",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0008278A",
+    "editorID": "WRLightFireStreet01",
+    "name": "",
+    "color": { "r": 250, "g": 197, "b": 118 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000838A6",
+    "editorID": "FarmInteriorShadowSunLight01",
+    "name": "",
+    "color": { "r": 247, "g": 244, "b": 242 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0001FD03",
+    "editorID": "MagicVoiceDragonRendProjectileLight",
+    "name": "",
+    "color": { "r": 70, "g": 138, "b": 240 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000354ED",
+    "editorID": "BleakFallsWaterBounce01NS_MoveLess",
+    "name": "",
+    "color": { "r": 182, "g": 247, "b": 252 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000625E0",
+    "editorID": "SolitudeInnCandleDefaultShadow",
+    "name": "",
+    "color": { "r": 226, "g": 207, "b": 150 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006C04E",
+    "editorID": "SolitudeInnBlueDark01",
+    "name": "",
+    "color": { "r": 22, "g": 92, "b": 126 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0006C056",
+    "editorID": "SolitudeInnSpotlightDefaultShadow",
+    "name": "",
+    "color": { "r": 223, "g": 221, "b": 206 },
+    "radius": 200,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 10.000000
+  }
+,
+  {
+    "formID": "000A6E23",
+    "editorID": "SolitudeInnBlueDark01Pulse",
+    "name": "",
+    "color": { "r": 16, "g": 126, "b": 180 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B735D",
+    "editorID": "SLightCandleStreet01",
+    "name": "",
+    "color": { "r": 250, "g": 197, "b": 118 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000B9402",
+    "editorID": "TestGrantIntLightSpotSunBlue",
+    "name": "",
+    "color": { "r": 186, "g": 209, "b": 218 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.600000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C1094",
+    "editorID": "YngolMagicLight01NS",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C1095",
+    "editorID": "YngolMagicLight02NS",
+    "name": "",
+    "color": { "r": 95, "g": 133, "b": 160 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C10AD",
+    "editorID": "SaarthalBallLight01NS",
+    "name": "",
+    "color": { "r": 120, "g": 235, "b": 221 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C1244",
+    "editorID": "IceBounce01NSBlue",
+    "name": "",
+    "color": { "r": 105, "g": 142, "b": 231 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C12F6",
+    "editorID": "DefaultCandleLight04Spot",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 120,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C1E2C",
+    "editorID": "DA16FogEmmitanceLight",
+    "name": "",
+    "color": { "r": 97, "g": 99, "b": 201 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C275A",
+    "editorID": "MS06WolfSkullCaveMainLight",
+    "name": "",
+    "color": { "r": 96, "g": 115, "b": 249 },
+    "radius": 256,
+    "flags": "",
+    "fade": 4.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C275B",
+    "editorID": "MS06RitualLightEvil",
+    "name": "",
+    "color": { "r": 49, "g": 66, "b": 185 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C275D",
+    "editorID": "MS06PotemaBanishLight",
+    "name": "",
+    "color": { "r": 49, "g": 66, "b": 185 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C650C",
+    "editorID": "DwarvenSunlightBounceAmb01NS",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C6527",
+    "editorID": "DefaultSunlight01Closer04",
+    "name": "",
+    "color": { "r": 141, "g": 165, "b": 163 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000C6595",
+    "editorID": "DwarvenOmniLight_NoMove",
+    "name": "",
+    "color": { "r": 182, "g": 231, "b": 180 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000C9F38",
+    "editorID": "LightTorchOutdoors",
+    "name": "",
+    "color": { "r": 183, "g": 105, "b": 30 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CB3B0",
+    "editorID": "DefaultTorch01NS_FastSaturate",
+    "name": "",
+    "color": { "r": 233, "g": 158, "b": 75 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000CB626",
+    "editorID": "DefaultBlueBounceWater01NSDim",
+    "name": "",
+    "color": { "r": 37, "g": 75, "b": 90 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000D0E40",
+    "editorID": "SLightStreetStreet01",
+    "name": "",
+    "color": { "r": 247, "g": 139, "b": 43 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000D9DAD",
+    "editorID": "MGEyeCollegeLight01",
+    "name": "",
+    "color": { "r": 61, "g": 171, "b": 237 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 2.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000EE0C3",
+    "editorID": "BleakFallsWaterBounce01NS_MoveLessPriest",
+    "name": "",
+    "color": { "r": 200, "g": 249, "b": 230 },
+    "radius": 256,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "000F252E",
+    "editorID": "FXLightBlackBasic",
+    "name": "",
+    "color": { "r": 0, "g": 0, "b": 0 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F3A89",
+    "editorID": "FXLightWhiteBasicShadow",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F4851",
+    "editorID": "FarmInteriorSunLight01",
+    "name": "",
+    "color": { "r": 247, "g": 244, "b": 242 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F650D",
+    "editorID": "MagicLightDA16Skull",
+    "name": "",
+    "color": { "r": 180, "g": 35, "b": 38 },
+    "radius": 45,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F650E",
+    "editorID": "MagicLightDA16SkullProjectile",
+    "name": "",
+    "color": { "r": 196, "g": 66, "b": 69 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F7635",
+    "editorID": "TestInventoryLightRim",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 512,
+    "flags": "",
+    "fade": 4.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F7CBD",
+    "editorID": "BlindCliffSpotlight01",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 45.000000,
+    "falloffExponent": 10.000000
+  }
+,
+  {
+    "formID": "000F7CBF",
+    "editorID": "DefaultBlueBounce01NS",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F7CC1",
+    "editorID": "DefaultViolet01NS",
+    "name": "",
+    "color": { "r": 139, "g": 134, "b": 247 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000F7CC2",
+    "editorID": "DefaultGreen01NS",
+    "name": "",
+    "color": { "r": 85, "g": 232, "b": 103 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000FFF46",
+    "editorID": "MGFirePillarLightShadow",
+    "name": "",
+    "color": { "r": 118, "g": 148, "b": 250 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000FFF48",
+    "editorID": "MGFirePillarLightBlue",
+    "name": "",
+    "color": { "r": 61, "g": 103, "b": 248 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "000FFF49",
+    "editorID": "MagicLightPoisionSprayProjectile",
+    "name": "",
+    "color": { "r": 100, "g": 204, "b": 30 },
+    "radius": 60,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010092A",
+    "editorID": "DefaultTorch02Spot",
+    "name": "",
+    "color": { "r": 192, "g": 150, "b": 103 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00101CE7",
+    "editorID": "ThroatoftheWorldBouncedLight",
+    "name": "",
+    "color": { "r": 84, "g": 120, "b": 120 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "001037D2",
+    "editorID": "EffigyOlafFXLight",
+    "name": "",
+    "color": { "r": 253, "g": 138, "b": 34 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "001037E4",
+    "editorID": "MQ206LightRedRim",
+    "name": "",
+    "color": { "r": 255, "g": 0, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010389D",
+    "editorID": "TwlightSepulcherPurpleShadLight",
+    "name": "",
+    "color": { "r": 197, "g": 200, "b": 237 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0010389E",
+    "editorID": "TwlightSepulcherPurpleBounceNSLight",
+    "name": "",
+    "color": { "r": 153, "g": 162, "b": 174 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "00105300",
+    "editorID": "LoadScreenLightMain",
+    "name": "",
+    "color": { "r": 247, "g": 245, "b": 210 },
+    "radius": 1500,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00105303",
+    "editorID": "LoadScreenLightBack",
+    "name": "",
+    "color": { "r": 179, "g": 208, "b": 204 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 3.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00105305",
+    "editorID": "LoadScreenLightFill",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 0.100000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00106910",
+    "editorID": "DefaultBlueBounce01NSDesat",
+    "name": "",
+    "color": { "r": 112, "g": 143, "b": 136 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00106914",
+    "editorID": "DefaultLightBlue",
+    "name": "",
+    "color": { "r": 209, "g": 233, "b": 233 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00106AD9",
+    "editorID": "MagicLightMagnusProjectile01",
+    "name": "",
+    "color": { "r": 146, "g": 223, "b": 245 },
+    "radius": 360,
+    "flags": "",
+    "fade": 1.200000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00108D6E",
+    "editorID": "SovngardeLightBounce",
+    "name": "",
+    "color": { "r": 242, "g": 202, "b": 119 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "00108D79",
+    "editorID": "MGFirePillarLightBlueShadow",
+    "name": "",
+    "color": { "r": 61, "g": 103, "b": 248 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.250000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "001093AB",
+    "editorID": "BoethiahBluePulseLight",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0010CDC8",
+    "editorID": "MagicLightHealCircle01",
+    "name": "",
+    "color": { "r": 231, "g": 198, "b": 152 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010D99E",
+    "editorID": "FXLightGreenBlueGlow",
+    "name": "",
+    "color": { "r": 121, "g": 249, "b": 255 },
+    "radius": 32,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010E15B",
+    "editorID": "FarmExteriorLight01",
+    "name": "",
+    "color": { "r": 198, "g": 162, "b": 100 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010F52E",
+    "editorID": "BleakFallsSunlight01b",
+    "name": "",
+    "color": { "r": 235, "g": 250, "b": 254 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0010FBEC",
+    "editorID": "MagicLightFireball02",
+    "name": "",
+    "color": { "r": 202, "g": 176, "b": 210 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010FBF0",
+    "editorID": "MagicLightFrostSpear01",
+    "name": "",
+    "color": { "r": 129, "g": 160, "b": 180 },
+    "radius": 340,
+    "flags": "",
+    "fade": 0.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010FD9F",
+    "editorID": "MagicVoiceDismay01",
+    "name": "",
+    "color": { "r": 120, "g": 54, "b": 54 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010FDA0",
+    "editorID": "MagicVoiceDismay02",
+    "name": "",
+    "color": { "r": 147, "g": 60, "b": 55 },
+    "radius": 300,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0010FDA1",
+    "editorID": "MagicVoiceDismay03",
+    "name": "",
+    "color": { "r": 194, "g": 72, "b": 58 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02019965",
+    "editorID": "DLC1PortalShadLight",
+    "name": "",
+    "color": { "r": 160, "g": 156, "b": 207 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "020195A1",
+    "editorID": "DLC1BFroomLight",
+    "name": "",
+    "color": { "r": 145, "g": 190, "b": 213 },
+    "radius": 1000,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "020182CA",
+    "editorID": "FarmInteriorFireLight01NoShadow",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02017650",
+    "editorID": "DLC01SCPurpleDesatNS",
+    "name": "",
+    "color": { "r": 214, "g": 173, "b": 199 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "02016123",
+    "editorID": "MagicLightDLC01SoulRendProjWeak",
+    "name": "",
+    "color": { "r": 65, "g": 55, "b": 251 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0201575D",
+    "editorID": "EvernightSunlight",
+    "name": "",
+    "color": { "r": 247, "g": 254, "b": 235 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0201540D",
+    "editorID": "testSuperMageLight2",
+    "name": "",
+    "color": { "r": 251, "g": 250, "b": 234 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0201540C",
+    "editorID": "testSuperMageLight1",
+    "name": "",
+    "color": { "r": 251, "g": 250, "b": 234 },
+    "radius": 128,
+    "flags": "",
+    "fade": 0.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02015374",
+    "editorID": "DLC1Torch",
+    "name": "Torch Bright",
+    "color": { "r": 215, "g": 191, "b": 166 },
+    "radius": 768,
+    "flags": "",
+    "fade": 1.550000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02014C52",
+    "editorID": "DLC1VCCourtyardNightLight",
+    "name": "",
+    "color": { "r": 157, "g": 193, "b": 253 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "020147FD",
+    "editorID": "DLC1dunRedwaterDenLightBrightRed",
+    "name": "",
+    "color": { "r": 255, "g": 0, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02012D71",
+    "editorID": "DLC1ForbearsBarrierLight",
+    "name": "",
+    "color": { "r": 121, "g": 249, "b": 255 },
+    "radius": 32,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0201036F",
+    "editorID": "DawnGuardIntFireLight01",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200F6A2",
+    "editorID": "DLC1FXRedBossFountainLight",
+    "name": "",
+    "color": { "r": 255, "g": 0, "b": 0 },
+    "radius": 400,
+    "flags": "",
+    "fade": 4.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200F64B",
+    "editorID": "DLC1MagicLightSunProjectile",
+    "name": "",
+    "color": { "r": 232, "g": 211, "b": 151 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200EFE3",
+    "editorID": "DLC1FalmerPurple01NS",
+    "name": "",
+    "color": { "r": 130, "g": 77, "b": 179 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200E6CF",
+    "editorID": "FalmerDarkBlueLight01NS",
+    "name": "",
+    "color": { "r": 48, "g": 78, "b": 80 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200D704",
+    "editorID": "FXCandleLight2",
+    "name": "",
+    "color": { "r": 45, "g": 52, "b": 44 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200D665",
+    "editorID": "DLC1MagicAurielSpellLight01",
+    "name": "",
+    "color": { "r": 208, "g": 193, "b": 164 },
+    "radius": 200,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200D260",
+    "editorID": "FXCandleLight",
+    "name": "",
+    "color": { "r": 30, "g": 35, "b": 29 },
+    "radius": 256,
+    "flags": "",
+    "fade": 0.700000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200D259",
+    "editorID": "DLC1SETempleDoor01NS",
+    "name": "",
+    "color": { "r": 60, "g": 235, "b": 63 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0200BF49",
+    "editorID": "DLC01IdealMasterCrystalLight",
+    "name": "",
+    "color": { "r": 191, "g": 111, "b": 115 },
+    "radius": 1024,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200AEB7",
+    "editorID": "DLC1WaterLight",
+    "name": "",
+    "color": { "r": 90, "g": 83, "b": 65 },
+    "radius": 144,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200A5AE",
+    "editorID": "DLC1dunRedwaterDenLightBright",
+    "name": "",
+    "color": { "r": 119, "g": 49, "b": 49 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0200A3BA",
+    "editorID": "DLC1MagicLightSunLightSpell01",
+    "name": "",
+    "color": { "r": 208, "g": 193, "b": 164 },
+    "radius": 200,
+    "flags": "",
+    "fade": 3.900000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02008CBD",
+    "editorID": "DLC1dunRedwaterDenLight",
+    "name": "",
+    "color": { "r": 101, "g": 67, "b": 67 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "02007CBD",
+    "editorID": "MagicLightDLC01SoulRendProj",
+    "name": "",
+    "color": { "r": 65, "g": 55, "b": 251 },
+    "radius": 600,
+    "flags": "",
+    "fade": 1.450000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "020059C2",
+    "editorID": "DLC01SCPurpleNS",
+    "name": "",
+    "color": { "r": 175, "g": 95, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "020059C0",
+    "editorID": "DLC01SCPurple",
+    "name": "",
+    "color": { "r": 103, "g": 97, "b": 184 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0010D99E",
+    "editorID": "FXLightGreenBlueGlow",
+    "name": "",
+    "color": { "r": 121, "g": 249, "b": 255 },
+    "radius": 32,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "03000BC6",
+    "editorID": "BYOHHouseWarmLightNS",
+    "name": "",
+    "color": { "r": 197, "g": 156, "b": 112 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0401DBC2",
+    "editorID": "DLC2dunKolbjornRitualLight",
+    "name": "",
+    "color": { "r": 128, "g": 0, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0401EA79",
+    "editorID": "DLC2APOMovingLightShadow",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0401EA7D",
+    "editorID": "DLC2APOMovingLightNoShadow",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "04027484",
+    "editorID": "DLC2ExpSpiderGlowingLight",
+    "name": "",
+    "color": { "r": 250, "g": 189, "b": 99 },
+    "radius": 400,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0402ACF6",
+    "editorID": "DLC2CZLightCampFireShadow01",
+    "name": "",
+    "color": { "r": 240, "g": 130, "b": 40 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0402B5FB",
+    "editorID": "DLC2CZLightTorchShadow01",
+    "name": "",
+    "color": { "r": 183, "g": 105, "b": 30 },
+    "radius": 300,
+    "flags": "",
+    "fade": 1.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0402B5FD",
+    "editorID": "DLC2CZLightTorch01",
+    "name": "",
+    "color": { "r": 183, "g": 105, "b": 30 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.750000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0402BCA4",
+    "editorID": "DLC2IceCaveBlueDesat",
+    "name": "",
+    "color": { "r": 163, "g": 176, "b": 177 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0402BCA5",
+    "editorID": "DLC2IceCaveBlueDesatShad",
+    "name": "",
+    "color": { "r": 163, "g": 176, "b": 177 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04030CE9",
+    "editorID": "DLC2DwarvenOmniLight_Desat",
+    "name": "",
+    "color": { "r": 222, "g": 221, "b": 240 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "040325D8",
+    "editorID": "DLC2APOMovingLightNoShadowNOSCRIPT",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "040325D9",
+    "editorID": "DLC2APOMovingLightShadowNOSCRIPT",
+    "name": "",
+    "color": { "r": 254, "g": 252, "b": 222 },
+    "radius": 512,
+    "flags": "",
+    "fade": 3.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "04032691",
+    "editorID": "DLC2HighPointGlowLight",
+    "name": "",
+    "color": { "r": 215, "g": 245, "b": 253 },
+    "radius": 256,
+    "flags": "",
+    "fade": 5.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "040327AF",
+    "editorID": "DLC2ApoMagicLight01NS",
+    "name": "",
+    "color": { "r": 135, "g": 179, "b": 214 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "040327BF",
+    "editorID": "DLC2ApoMagicLight02NS",
+    "name": "",
+    "color": { "r": 200, "g": 220, "b": 129 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403280C",
+    "editorID": "DLC2MagicSmallLightFireInHand",
+    "name": "",
+    "color": { "r": 252, "g": 182, "b": 139 },
+    "radius": 18,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "040336E7",
+    "editorID": "DLC2RedoranFireLight01",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "040336E8",
+    "editorID": "DLC2RedoranLight01",
+    "name": "",
+    "color": { "r": 201, "g": 131, "b": 67 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04033970",
+    "editorID": "DLC2RRLightForgeFire01",
+    "name": "",
+    "color": { "r": 226, "g": 140, "b": 63 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403523F",
+    "editorID": "DLC2RedoranShadowLight01",
+    "name": "",
+    "color": { "r": 201, "g": 131, "b": 67 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04035C9E",
+    "editorID": "DefaultCandleLight01_DesatFXExtraDark",
+    "name": "",
+    "color": { "r": 108, "g": 103, "b": 83 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403770B",
+    "editorID": "DLC2FXLightElectricBlueGlow",
+    "name": "",
+    "color": { "r": 124, "g": 133, "b": 243 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04038839",
+    "editorID": "DLC2FXLightElectricBlueGlowDUPLICATE001",
+    "name": "",
+    "color": { "r": 124, "g": 133, "b": 243 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04039006",
+    "editorID": "DLC2ApoMagicLight01",
+    "name": "",
+    "color": { "r": 135, "g": 179, "b": 214 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "04039007",
+    "editorID": "DLC2ApoMagicLight02",
+    "name": "",
+    "color": { "r": 200, "g": 220, "b": 129 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403AC61",
+    "editorID": "DLC2SpiderEggLight",
+    "name": "",
+    "color": { "r": 168, "g": 200, "b": 188 },
+    "radius": 224,
+    "flags": "",
+    "fade": 0.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403CF1E",
+    "editorID": "DLC2RedoranShadowLight02",
+    "name": "",
+    "color": { "r": 201, "g": 131, "b": 67 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403D4A8",
+    "editorID": "DLC2BulwarkCaveLight",
+    "name": "",
+    "color": { "r": 167, "g": 194, "b": 208 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0403D4AB",
+    "editorID": "DLC2BulwarkCaveLight02",
+    "name": "",
+    "color": { "r": 156, "g": 152, "b": 228 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "053AF07D",
+    "editorID": "ccASVSSE001_RedLanternLight",
+    "name": "",
+    "color": { "r": 188, "g": 141, "b": 98 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "053AF07F",
+    "editorID": "ccASVSSE001_BlueCandleLight",
+    "name": "",
+    "color": { "r": 55, "g": 155, "b": 166 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "05390A6D",
+    "editorID": "ccASVSSE001_BlueLanternLight",
+    "name": "",
+    "color": { "r": 55, "g": 155, "b": 166 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "052F3B0A",
+    "editorID": "ccASVSSE001_DwarvenOmni_LessMoveNS",
+    "name": "",
+    "color": { "r": 200, "g": 223, "b": 176 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "051B9BC2",
+    "editorID": "ccASVSSE001_BleakFallsTorchlight01NS",
+    "name": "",
+    "color": { "r": 122, "g": 205, "b": 241 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0507AABB",
+    "editorID": "ccASVSSE001_DwarvenOmni_ShadLightLessMove",
+    "name": "",
+    "color": { "r": 200, "g": 223, "b": 176 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "05070896",
+    "editorID": "ccASVSSE001_ForgeFireShadow01",
+    "name": "",
+    "color": { "r": 226, "g": 140, "b": 63 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.350000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "06000CAF",
+    "editorID": "ccBGSSSE001_DefaultCandleLight01NSDesatWaterBounce",
+    "name": "",
+    "color": { "r": 242, "g": 240, "b": 223 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0603DCD9",
+    "editorID": "ccBGSSSE001_CatchSuccessLight",
+    "name": "",
+    "color": { "r": 201, "g": 225, "b": 228 },
+    "radius": 80,
+    "flags": "",
+    "fade": 0.830000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "060008F4",
+    "editorID": "ccBGSSSE001_AquariumDefaultBlueBounceWater01NS",
+    "name": "",
+    "color": { "r": 121, "g": 203, "b": 234 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "06000CB0",
+    "editorID": "ccBGSSSE001_BleakFallsCandleLight01WaterBounceNS",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070008AD",
+    "editorID": "DLCDwarvenPuzzleDungeonGreenPoisonGasLightShadow",
+    "name": "",
+    "color": { "r": 85, "g": 232, "b": 103 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070BBEAC",
+    "editorID": "DLCDwarvenPuzzle_SummerLight",
+    "name": "",
+    "color": { "r": 208, "g": 162, "b": 51 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070008AE",
+    "editorID": "DLCDwarvenPuzzleDungeonSpringLight",
+    "name": "",
+    "color": { "r": 78, "g": 105, "b": 39 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070008AF",
+    "editorID": "DLCDwarvenPuzzleDungeonStaffLight",
+    "name": "",
+    "color": { "r": 255, "g": 128, "b": 64 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070BBE84",
+    "editorID": "DLCDwarvenPuzzle_AutumnLight",
+    "name": "",
+    "color": { "r": 184, "g": 122, "b": 61 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "070C1129",
+    "editorID": "DLCDwarvenPuzzleDungeon_OffColourLight",
+    "name": "",
+    "color": { "r": 199, "g": 194, "b": 118 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "08000813",
+    "editorID": "EEJSSE001_DBFireLight01",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "08000814",
+    "editorID": "EEJSSE001_DBFireLight01NS",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE013811",
+    "editorID": "ccEEJSSE002_WindowLight",
+    "name": "",
+    "color": { "r": 181, "g": 214, "b": 251 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "FE01380D",
+    "editorID": "ccEEJSSE002_FireLight",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE0139A3",
+    "editorID": "ccEEJSSE002_MageLampLight2",
+    "name": "",
+    "color": { "r": 119, "g": 184, "b": 249 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01380F",
+    "editorID": "ccEEJSSE002_MageLampLight",
+    "name": "",
+    "color": { "r": 119, "g": 184, "b": 249 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE013969",
+    "editorID": "ccEEJSSE002_MageForgeLight",
+    "name": "",
+    "color": { "r": 219, "g": 148, "b": 96 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE013810",
+    "editorID": "ccEEJSSE002_CandleLight",
+    "name": "",
+    "color": { "r": 218, "g": 184, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01399E",
+    "editorID": "ccEEJSSE002WarmLight",
+    "name": "",
+    "color": { "r": 208, "g": 193, "b": 164 },
+    "radius": 100,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01380C",
+    "editorID": "ccEEJSSE002_FireLightNS",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01380E",
+    "editorID": "ccEEJSSE002_CandleLightNS",
+    "name": "",
+    "color": { "r": 218, "g": 184, "b": 146 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01380B",
+    "editorID": "ccEEJSSE002_PortalLight",
+    "name": "",
+    "color": { "r": 96, "g": 155, "b": 159 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE016848",
+    "editorID": "ccBGSSSE037_MagicLightLightSpell01",
+    "name": "",
+    "color": { "r": 128, "g": 227, "b": 168 },
+    "radius": 450,
+    "flags": "",
+    "fade": 2.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE016847",
+    "editorID": "ccBGSSSE037_MagicLightLightSpellHand01",
+    "name": "",
+    "color": { "r": 196, "g": 241, "b": 190 },
+    "radius": 32,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01F808",
+    "editorID": "ccEEJSSE003_TorchLight",
+    "name": "",
+    "color": { "r": 251, "g": 203, "b": 155 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01F852",
+    "editorID": "ccEEJSSE003_BasicCandle",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE01FEDD",
+    "editorID": "ccEEJSSE003_FireLight",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "090065EB",
+    "editorID": "ccBGSSSE016_AAAPurkeyBlueDark01Shadow",
+    "name": "",
+    "color": { "r": 22, "g": 92, "b": 126 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "09000800",
+    "editorID": "ccBGSSSE016_FXLightBlueGlowShadow",
+    "name": "",
+    "color": { "r": 125, "g": 151, "b": 243 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "090065C8",
+    "editorID": "ccBGSSSE016_BleakFallsDraugrTorch01NSWater",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000807",
+    "editorID": "ccBGSSSE067_AyleidSmoke01",
+    "name": "",
+    "color": { "r": 29, "g": 105, "b": 141 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000808",
+    "editorID": "ccBGSSSE067_ARCandleLight01NS",
+    "name": "",
+    "color": { "r": 250, "g": 179, "b": 126 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B061CD3",
+    "editorID": "ccBGSSSE067_ARBlueAmb01Flicker",
+    "name": "",
+    "color": { "r": 34, "g": 62, "b": 79 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B061CD2",
+    "editorID": "ccBGSSSE067_ARBlueIntense01Flicker",
+    "name": "",
+    "color": { "r": 134, "g": 186, "b": 191 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B09A09B",
+    "editorID": "ccBGSSSE067_MythicDawnCandleLight01NS",
+    "name": "",
+    "color": { "r": 255, "g": 208, "b": 151 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B094E05",
+    "editorID": "ccBGSSSE067_OblivionGateLight01",
+    "name": "",
+    "color": { "r": 252, "g": 79, "b": 65 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B094E07",
+    "editorID": "ccBGSSSE067_OblivionGateLight01NS",
+    "name": "",
+    "color": { "r": 255, "g": 52, "b": 36 },
+    "radius": 400,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000F63",
+    "editorID": "ccBGSSSE067_ARDesatBlueIntense01",
+    "name": "",
+    "color": { "r": 106, "g": 206, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000F62",
+    "editorID": "ccBGSSSE067_ARBlueIntense01",
+    "name": "",
+    "color": { "r": 134, "g": 186, "b": 191 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000F60",
+    "editorID": "ccBGSSSE067_ARLightBlueIntense01",
+    "name": "",
+    "color": { "r": 115, "g": 193, "b": 210 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000805",
+    "editorID": "ccBGSSSE067_ARBlueIntense01Shadow",
+    "name": "",
+    "color": { "r": 126, "g": 172, "b": 199 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B0E16D6",
+    "editorID": "ccBGSSSE067_LavaLight01NS",
+    "name": "",
+    "color": { "r": 238, "g": 147, "b": 79 },
+    "radius": 512,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B09A09C",
+    "editorID": "ccBGSSSE067_MythicDawnCandleLight01",
+    "name": "",
+    "color": { "r": 255, "g": 208, "b": 151 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0B000EEB",
+    "editorID": "ccBGSSSE067_ARBlueAmb01",
+    "name": "",
+    "color": { "r": 34, "g": 62, "b": 79 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03881C",
+    "editorID": "ccVSVSSE004_LIGHT_Blue",
+    "name": "",
+    "color": { "r": 121, "g": 203, "b": 234 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0C02B7EB",
+    "editorID": "ccBGSSSE025_FireLightShadow",
+    "name": "",
+    "color": { "r": 198, "g": 113, "b": 36 },
+    "radius": 124,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0C02B7E3",
+    "editorID": "ccBGSSSE025_DwarvenMushroomLight",
+    "name": "",
+    "color": { "r": 126, "g": 187, "b": 254 },
+    "radius": 224,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0C000C73",
+    "editorID": "ccBGSSSE025_FireLight",
+    "name": "",
+    "color": { "r": 198, "g": 113, "b": 36 },
+    "radius": 124,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0C02B7ED",
+    "editorID": "ccBGSSSE025_FireLightWaterPulse",
+    "name": "",
+    "color": { "r": 198, "g": 113, "b": 36 },
+    "radius": 124,
+    "flags": "",
+    "fade": 1.500000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A821",
+    "editorID": "ccBGSSSE013_GreenOmniShadow",
+    "name": "",
+    "color": { "r": 0, "g": 255, "b": 0 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A824",
+    "editorID": "ccBGSSSE013_BlueOmniShadow",
+    "name": "",
+    "color": { "r": 77, "g": 114, "b": 242 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A822",
+    "editorID": "ccBGSSSE013_GreenLight",
+    "name": "",
+    "color": { "r": 6, "g": 162, "b": 131 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A826",
+    "editorID": "ccBGSSSE013_RedLightOmniShadow",
+    "name": "",
+    "color": { "r": 255, "g": 0, "b": 0 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A823",
+    "editorID": "ccBGSSSE013_BlueTorchNS",
+    "name": "",
+    "color": { "r": 77, "g": 114, "b": 242 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A820",
+    "editorID": "ccBGSSSE013_GreenTorchNS",
+    "name": "",
+    "color": { "r": 50, "g": 209, "b": 54 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03A80E",
+    "editorID": "ccBGSSSE013_RedTorchNS",
+    "name": "",
+    "color": { "r": 255, "g": 4, "b": 4 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03D810",
+    "editorID": "ccEEJSSE004_CandleLightShadow",
+    "name": "",
+    "color": { "r": 235, "g": 182, "b": 101 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03D80E",
+    "editorID": "ccEEJSSE004_HallsCandleLight",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03D80F",
+    "editorID": "ccEEJSSE004_TorchLight",
+    "name": "",
+    "color": { "r": 249, "g": 158, "b": 60 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03D995",
+    "editorID": "ccEEJSSE004_FarmInteriorSunLight01",
+    "name": "",
+    "color": { "r": 247, "g": 244, "b": 242 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "FE03D811",
+    "editorID": "ccEEJSSE004_TorchLightNS",
+    "name": "",
+    "color": { "r": 249, "g": 159, "b": 62 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D01F0B6",
+    "editorID": "ccEEJSSE005_FireLightNoShadow",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D019E1F",
+    "editorID": "ccEEJSSE005_FireLightShadow",
+    "name": "",
+    "color": { "r": 199, "g": 100, "b": 27 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D033715",
+    "editorID": "ccEEJSSE005_CandleLightNS",
+    "name": "",
+    "color": { "r": 254, "g": 234, "b": 152 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D0570A2",
+    "editorID": "ccEEJSSE005_DawnGuardIntFireLight01Shadow",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D00AA19",
+    "editorID": "ccEEJSSE005_SunSpotlight",
+    "name": "",
+    "color": { "r": 255, "g": 255, "b": 255 },
+    "radius": 256,
+    "flags": "",
+    "fade": 2.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D033714",
+    "editorID": "ccEEJSSE005_DawnGuardIntFireLight01",
+    "name": "",
+    "color": { "r": 173, "g": 103, "b": 52 },
+    "radius": 512,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0D033713",
+    "editorID": "ccEEJSSE005_IceSunlightBounceAmb01NS",
+    "name": "",
+    "color": { "r": 185, "g": 208, "b": 202 },
+    "radius": 256,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 5.000000
+  }
+,
+  {
+    "formID": "0E0008EC",
+    "editorID": "ccAARSSERedIndicatorLight",
+    "name": "",
+    "color": { "r": 255, "g": 0, "b": 0 },
+    "radius": 192,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+,
+  {
+    "formID": "0E0008D8",
+    "editorID": "ccAARSSEGreenIndicatorLight",
+    "name": "",
+    "color": { "r": 0, "g": 255, "b": 0 },
+    "radius": 192,
+    "flags": "",
+    "fade": 1.000000,
+    "fov": 90.000000,
+    "falloffExponent": 1.000000
+  }
+]

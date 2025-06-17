@@ -5,9 +5,30 @@
     "DebugMode": true
   },
   "Lights": [
-    "light.b40_ip_121",
-    "light.b40_ip_122",
-    "light.b40_ip_123"
+    {
+      "entity_id": "light.b40_ip_121",
+      "position": {
+        "x": 200,
+        "y": 80,
+        "z": 20
+      }
+    },
+    {
+      "entity_id": "light.b40_ip_122",
+      "position": {
+        "x": 0,
+        "y": -50,
+        "z": 120
+      }
+    },
+    {
+      "entity_id": "light.b40_ip_123",
+      "position": {
+        "x": 0,
+        "y": -50,
+        "z": 120
+      }
+    }
   ],
   "Scenarios": [
     {
@@ -87,6 +108,72 @@
           "entity_id": "light.b40_ip_123",
           "rgb_color": [ 0, 0, 255 ],
           "brightness_pct": 100
+        }
+      ]
+    },
+    {
+      "name": "Near Fire",
+      "priority": 50,
+      "trigger": {
+        "type": "near_object",
+        "object_type": "fire",
+        "radius": 400
+      },
+      "outcome": [
+        {
+          "entity_id": "light.b40_ip_121",
+          "rgb_color": [ 255, 140, 0 ],
+          "brightness_pct": 70,
+          "effect": "flicker",
+          "flicker": {
+            "r": 120,
+            "g": 80,
+            "b": 20,
+            "brightness": 40
+          }
+        },
+        {
+          "entity_id": "light.b40_ip_122",
+          "inherit": true
+        },
+        {
+          "entity_id": "light.b40_ip_123",
+          "inherit": true
+        }
+      ]
+    },
+    {
+      "name": "Torch Equipped",
+      "priority": 100,
+      "trigger": { "type": "torch_equipped" },
+      "outcome": [
+        {
+          "entity_id": "light.b40_ip_121",
+          "rgb_color": [ 255, 140, 0 ],
+          "brightness_pct": 70,
+          "effect": "flicker",
+          "flicker": {
+            "r": 120,
+            "g": 80,
+            "b": 20,
+            "brightness": 40
+          }
+        },
+        {
+          "entity_id": "light.b40_ip_122",
+          "rgb_color": [ 255, 140, 0 ],
+          "brightness_pct": 70,
+          "effect": "flicker",
+          "flicker": {
+            "r": 120,
+            "g": 80,
+            "b": 20,
+            "brightness": 40
+          }
+        },
+        {
+          "entity_id": "light.b40_ip_123",
+          "inherit": true
         }
       ]
     }

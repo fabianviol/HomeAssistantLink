@@ -39,7 +39,13 @@ endif()
 
 # Setup your SKSE plugin as an SKSE plugin!
 find_package(CommonLibSSE CONFIG REQUIRED)
-add_commonlibsse_plugin(${PROJECT_NAME} SOURCES plugin.cpp) # <--- specifies plugin.cpp
+add_commonlibsse_plugin(${PROJECT_NAME} SOURCES plugin.cpp 
+                                                logger.cpp
+                                                ConfigLoader.cpp
+                                                LightManager.cpp
+                                                GameState.cpp
+                                                SkyrimLightsDB.cpp 
+) 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23) # <--- use C++23 standard
 target_precompile_headers(${PROJECT_NAME} PRIVATE PCH.h) # <--- PCH.h is required!
 find_package(cpr CONFIG REQUIRED)
@@ -83,6 +89,14 @@ if(DEFINED OUTPUT_FOLDER)
         COMMAND "${CMAKE_COMMAND}" -E copy_if_different
                 "${CMAKE_CURRENT_SOURCE_DIR}/HomeAssistantLink.json" # Source path of your JSON
                 "${DLL_FOLDER}/HomeAssistantLink.json"             # Destination path
+        VERBATIM
+    )
+    add_custom_command(
+        TARGET "${PROJECT_NAME}"
+        POST_BUILD
+        COMMAND "${CMAKE_COMMAND}" -E copy_if_different
+                "${CMAKE_CURRENT_SOURCE_DIR}/HomeAssistantLink.psc" # Source path of your JSON
+                "${DLL_FOLDER}/Data/Scripts/Source/HomeAssistantLink.psc"             # Destination path
         VERBATIM
     )
 
