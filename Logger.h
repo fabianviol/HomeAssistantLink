@@ -11,3 +11,4 @@ void LogToFile_Warn(const std::string& message);
 void LogToFile_Error(const std::string& message);
 void LogToFile_Debug(const std::string& message);
 void LogToConsole(const std::string& message);
+void NotifyIngame(const std::string& msg, bool sound = false);

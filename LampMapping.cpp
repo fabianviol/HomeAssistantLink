@@ -1,7 +1,9 @@
 #include "LampMapping.h"
-#include "GameState.h" 
+
 #include <algorithm>
 #include <cmath>
+
+#include "GameState.h"
 
 // Helper: Calculate normalized dot product (direction similarity)
 static float DirDot(const Vec3& a, const Vec3& b) {
@@ -10,53 +12,81 @@ static float DirDot(const Vec3& a, const Vec3& b) {
     return std::max(0.0f, a.dot(b) / (la * lb));
 }
 
+// Weighted blend from all in-game lights, using player yaw for alignment.
+// realLamps: Your room lamps with .position relative to player (in cm).
+// gameLights: Active in-game lights with world positions (in Skyrim units).
+// playerYawRadians: Player's current view direction (in radians).
+// maxDistance: Only lights within this distance influence the lamps.
 std::vector<LightState> MapInGameLightsToRealLamps(const std::vector<RealLamp>& realLamps,
-                                                   const std::vector<InGameLight>& gameLights, float maxDistance) {
+                                                   const std::vector<InGameLight>& gameLights, float playerYawRadians,
+                                                   float maxDistance) {
     std::vector<LightState> result;
-    // Player at (0,0,0) in both spaces
+
+    // You can tweak this sharpness value for stronger focus; higher = more spotlight-like
+    constexpr float DIRECTION_SHARPNESS = 2.0f;  // try 1.5–3.0 for your setup
+
     for (const auto& lamp : realLamps) {
-        Vec3 lampDir = lamp.position.normalized();
-        float bestEffect = 0.0f;
-        int out_r = 255, out_g = 140, out_b = 0;  // Fire orange default
+        Vec3 lampDir = lamp.position.normalized();  // Direction from player to lamp
+
+        float sumWeight = 0.0f;
+        float sumR = 0.0f, sumG = 0.0f, sumB = 0.0f, sumBrightness = 0.0f;
 
         for (const auto& gameLight : gameLights) {
-            // Direction from player to in-game light
-            Vec3 toLight = (gameLight.skyrim_pos - Vec3{0, 0, 0});  // player is at (0,0,0)
-            float dist = toLight.length();
+            // Vector from player to in-game light (in Skyrim coordinates)
+            Vec3 lightVec = gameLight.skyrim_pos;  // assumes player is at (0,0,0)
+            // Rotate by -playerYaw so Skyrim "forward" matches real room "forward"
+            Vec3 relVec = RotateVectorByYaw(lightVec, playerYawRadians);
 
+            float dist = relVec.length();
             if (dist > maxDistance) continue;
 
-            float directionEffect = DirDot(lampDir, toLight);
-            // Distance fade: e.g. fade to 0 at maxDistance
-            float distanceFade = 1.0f - std::clamp(dist / maxDistance, 0.0f, 1.0f);
-            float effect = directionEffect * distanceFade * (gameLight.intensity);
+            Vec3 lightDir = relVec.normalized();
+            float dirRaw = std::max(0.0f, lampDir.dot(lightDir));        // [0..1]
+            float dirAlignment = std::pow(dirRaw, DIRECTION_SHARPNESS);  // Sharper spotlight effect
 
-            if (effect > bestEffect) {
-                bestEffect = effect;
-                out_r = gameLight.color_r;
-                out_g = gameLight.color_g;
-                out_b = gameLight.color_b;
-            }
+            float distanceFade = 1.0f - std::clamp(dist / maxDistance, 0.0f, 1.0f);
+            float weight = dirAlignment * distanceFade * gameLight.intensity;
+
+            sumWeight += weight;
+            sumR += weight * gameLight.color_r;
+            sumG += weight * gameLight.color_g;
+            sumB += weight * gameLight.color_b;
+            sumBrightness += weight * 100.0f;  // You can adapt brightness mapping if needed
         }
-        if (bestEffect > 0.05f) {  // Only if visible
-            LightState ls;
-            ls.entity_id = lamp.entity_id;
-            ls.rgb_color = {out_r, out_g, out_b};
-            ls.brightness_pct = static_cast<int>(std::clamp(bestEffect * 100, 10.0f, 100.0f));
-            ls.effect = "flicker";
+
+        LightState ls;
+        ls.entity_id = lamp.entity_id;
+
+        if (sumWeight > 0.01f) {
+            ls.rgb_color = {static_cast<int>(sumR / sumWeight), static_cast<int>(sumG / sumWeight),
+                            static_cast<int>(sumB / sumWeight)};
+            ls.brightness_pct = static_cast<int>(std::clamp(sumBrightness / sumWeight, 10.0f, 100.0f));
+            ls.effect = "flicker";  // Or other effect if you want
             FlickerConfig flickConf;
-            flickConf.r = 120;
-            flickConf.g = 80;
+            flickConf.r = 60;
+            flickConf.g = 40;
             flickConf.b = 20;
-            flickConf.brightness = 40;
+            flickConf.brightness = 20;
             ls.flicker = flickConf;
-            result.push_back(ls);
         } else {
-            LightState ls;
-            ls.entity_id = lamp.entity_id;
+            // No relevant lights: fall back to inherit or off
             ls.inherit = true;
-            result.push_back(ls);
         }
+
+        result.push_back(ls);
     }
     return result;
+}
+
+// Rotates a 2D vector (x, y) in the horizontal plane by yawRadians.
+// Positive yaw rotates counter-clockwise.
+// The Z coordinate is unchanged.
+Vec3 RotateVectorByYaw(const Vec3& vec, float yawRadians) {
+    float cosA = std::cos(-yawRadians);  // Negative to match Skyrim's rotation direction
+    float sinA = std::sin(-yawRadians);
+
+    float x_new = vec.x * cosA - vec.y * sinA;
+    float y_new = vec.x * sinA + vec.y * cosA;
+
+    return Vec3{x_new, y_new, vec.z};
 }

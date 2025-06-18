@@ -4,57 +4,171 @@
     "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhYThhYjI0YWFkNzM0ZGIyYjBjN2IzOWQwY2U0NzM2YyIsImlhdCI6MTc0OTkzNTY5MSwiZXhwIjoyMDY1Mjk1NjkxfQ.qT5DPkPhAEbqOVNrQl0aUd1FHzHu81ftDeEM8R9EZLQ",
     "DebugMode": true
   },
+  "LightingOptions": {
+    "directionSharpness": 2.0
+  },
   "Lights": [
     {
       "entity_id": "light.b40_ip_121",
       "position": {
-        "x": 200,
-        "y": 80,
-        "z": 20
+        "x": 300,
+        "y": -200,
+        "z": 100
       }
     },
     {
       "entity_id": "light.b40_ip_122",
       "position": {
-        "x": 0,
-        "y": -50,
-        "z": 120
+        "x": -250,
+        "y": -200,
+        "z": 175
       }
     },
     {
       "entity_id": "light.b40_ip_123",
       "position": {
-        "x": 0,
-        "y": -50,
+        "x": -150,
+        "y": 90,
+        "z": 120
+      }
+    },
+    {
+      "entity_id": "light.b40_ip_126",
+      "position": {
+        "x": 150,
+        "y": 90,
         "z": 120
       }
     }
   ],
-  "Scenarios": [
+  "DayNightCycle": [
     {
-      "name": "Default State",
-      "priority": 0,
-      "trigger": {
-        "type": "always"
-      },
-      "outcome": [
-        {
-          "entity_id": "light.b40_ip_121",
-          "rgb_color": [ 0, 255, 0 ],
-          "brightness_pct": 100
-        },
-        {
-          "entity_id": "light.b40_ip_122",
-          "rgb_color": [ 0, 255, 0 ],
-          "brightness_pct": 100
-        },
-        {
-          "entity_id": "light.b40_ip_123",
-          "rgb_color": [ 0, 255, 0 ],
-          "brightness_pct": 100
-        }
-      ]
+      "hour": 0,
+      "rgb_color": [ 0, 40, 120 ],
+      "brightness_pct": 10
+    }, 
+    {
+      "hour": 1,
+      "rgb_color": [ 0, 40, 120 ],
+      "brightness_pct": 10
     },
+    {
+      "hour": 2,
+      "rgb_color": [ 0, 30, 90 ],
+      "brightness_pct": 10
+    },
+    {
+      "hour": 3,
+      "rgb_color": [ 0, 30, 80 ],
+      "brightness_pct": 10
+    },
+    {
+      "hour": 4,
+      "rgb_color": [ 40, 40, 60 ],
+      "brightness_pct": 12
+    }, 
+    {
+      "hour": 5,
+      "rgb_color": [ 255, 100, 0 ],
+      "brightness_pct": 20
+    }, 
+    {
+      "hour": 6,
+      "rgb_color": [ 255, 180, 60 ],
+      "brightness_pct": 35
+    },
+    {
+      "hour": 7,
+      "rgb_color": [ 255, 220, 120 ],
+      "brightness_pct": 50
+    },
+    {
+      "hour": 8,
+      "rgb_color": [ 255, 255, 220 ],
+      "brightness_pct": 70
+    },
+    {
+      "hour": 9,
+      "rgb_color": [ 255, 255, 240 ],
+      "brightness_pct": 80
+    },
+    {
+      "hour": 10,
+      "rgb_color": [ 255, 255, 250 ],
+      "brightness_pct": 90
+    },
+    {
+      "hour": 11,
+      "rgb_color": [ 255, 255, 255 ],
+      "brightness_pct": 100
+    }, 
+    {
+      "hour": 12,
+      "rgb_color": [ 255, 255, 255 ],
+      "brightness_pct": 100
+    },
+    {
+      "hour": 13,
+      "rgb_color": [ 255, 255, 255 ],
+      "brightness_pct": 100
+    },
+    {
+      "hour": 14,
+      "rgb_color": [ 255, 255, 240 ],
+      "brightness_pct": 95
+    },
+    {
+      "hour": 15,
+      "rgb_color": [ 255, 255, 230 ],
+      "brightness_pct": 90
+    },
+    {
+      "hour": 16,
+      "rgb_color": [ 255, 255, 200 ],
+      "brightness_pct": 80
+    },
+    {
+      "hour": 17,
+      "rgb_color": [ 255, 210, 140 ],
+      "brightness_pct": 70
+    },
+    {
+      "hour": 18,
+      "rgb_color": [ 255, 180, 60 ],
+      "brightness_pct": 55
+    }, 
+    {
+      "hour": 19,
+      "rgb_color": [ 255, 100, 0 ],
+      "brightness_pct": 40
+    },
+    {
+      "hour": 20,
+      "rgb_color": [ 80, 40, 120 ],
+      "brightness_pct": 25
+    }, 
+    {
+      "hour": 21,
+      "rgb_color": [ 40, 40, 100 ],
+      "brightness_pct": 15
+    },
+    {
+      "hour": 22,
+      "rgb_color": [ 0, 40, 120 ],
+      "brightness_pct": 10
+    },
+    {
+      "hour": 23,
+      "rgb_color": [ 0, 40, 120 ],
+      "brightness_pct": 10
+    },
+    {
+      "hour": 24,
+      "rgb_color": [ 0, 40, 120 ],
+      "brightness_pct": 10
+    }
+  ],
+  "Scenarios": [
     {
       "name": "Player In Combat",
       "priority": 20,
@@ -64,81 +178,24 @@
       "outcome": [
         {
           "entity_id": "light.b40_ip_121",
-          "rgb_color": [ 255, 0, 0 ], 
-          "brightness_pct": 100, 
-          "effect": "scene", 
+          "rgb_color": [ 255, 0, 0 ],
+          "brightness_pct": 100,
+          "effect": "scene",
           "scene": "Alarm"
         },
         {
           "entity_id": "light.b40_ip_122",
-          "rgb_color": [ 255, 0, 0 ], 
-          "brightness_pct": 100, 
-          "effect": "scene", 
+          "rgb_color": [ 255, 0, 0 ],
+          "brightness_pct": 100,
+          "effect": "scene",
           "scene": "Alarm"
         },
         {
           "entity_id": "light.b40_ip_123",
-          "rgb_color": [ 255, 0, 0 ], 
-          "brightness_pct": 100, 
-          "effect": "scene", 
+          "rgb_color": [ 255, 0, 0 ],
+          "brightness_pct": 100,
+          "effect": "scene",
           "scene": "Alarm"
-        }
-      ]
-    },
-    {
-      "name": "Night Time (Game Hour)",
-      "priority": 5,
-      "trigger": {
-        "type": "game_hour_range",
-        "min_hour": 20,
-        "max_hour": 6
-      },
-      "outcome": [
-        {
-          "entity_id": "light.b40_ip_121",
-          "rgb_color": [ 0, 0, 255 ],
-          "brightness_pct": 100
-        },
-        {
-          "entity_id": "light.b40_ip_122",
-          "rgb_color": [ 0, 0, 255 ],
-          "brightness_pct": 100
-        },
-        {
-          "entity_id": "light.b40_ip_123",
-          "rgb_color": [ 0, 0, 255 ],
-          "brightness_pct": 100
-        }
-      ]
-    },
-    {
-      "name": "Near Fire",
-      "priority": 50,
-      "trigger": {
-        "type": "near_object",
-        "object_type": "fire",
-        "radius": 400
-      },
-      "outcome": [
-        {
-          "entity_id": "light.b40_ip_121",
-          "rgb_color": [ 255, 140, 0 ],
-          "brightness_pct": 70,
-          "effect": "flicker",
-          "flicker": {
-            "r": 120,
-            "g": 80,
-            "b": 20,
-            "brightness": 40
-          }
-        },
-        {
-          "entity_id": "light.b40_ip_122",
-          "inherit": true
-        },
-        {
-          "entity_id": "light.b40_ip_123",
-          "inherit": true
         }
       ]
     },

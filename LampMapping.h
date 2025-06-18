@@ -13,6 +13,8 @@ struct InGameLight {
     float intensity;
 };
 
+Vec3 RotateVectorByYaw(const Vec3& vec, float yawRadians);
+
 std::vector<LightState> MapInGameLightsToRealLamps(const std::vector<RealLamp>& realLamps,
-                                                   const std::vector<InGameLight>& gameLights,
+                                                   const std::vector<InGameLight>& gameLights, float playerYawRadians,
                                                    float maxDistance = 400.0f);

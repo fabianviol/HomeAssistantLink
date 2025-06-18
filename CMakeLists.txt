@@ -46,6 +46,7 @@ add_commonlibsse_plugin(${PROJECT_NAME} SOURCES plugin.cpp
                                                 GameState.cpp
                                                 SkyrimLightsDB.cpp
                                                 LampMapping.cpp
+                                                LightSmoother.cpp
 ) 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23) # <--- use C++23 standard
 target_precompile_headers(${PROJECT_NAME} PRIVATE PCH.h) # <--- PCH.h is required!
@@ -90,6 +91,14 @@ if(DEFINED OUTPUT_FOLDER)
         COMMAND "${CMAKE_COMMAND}" -E copy_if_different
                 "${CMAKE_CURRENT_SOURCE_DIR}/HomeAssistantLink.json" # Source path of your JSON
                 "${DLL_FOLDER}/HomeAssistantLink.json"             # Destination path
+        VERBATIM
+    )
+    add_custom_command(
+        TARGET "${PROJECT_NAME}"
+        POST_BUILD
+        COMMAND "${CMAKE_COMMAND}" -E copy_if_different
+                "${CMAKE_CURRENT_SOURCE_DIR}/lights.json" # Source path of your JSON
+                "${DLL_FOLDER}/lights.json"             # Destination path
         VERBATIM
     )
     add_custom_command(

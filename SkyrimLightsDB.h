@@ -16,5 +16,5 @@ struct SkyrimLightDefinition {
 
 extern std::unordered_map<uint32_t, SkyrimLightDefinition> g_SkyrimLightDefs;
 
-bool LoadSkyrimLightsDatabase(const std::string& path);
+bool LoadSkyrimLightsDatabase();
 const SkyrimLightDefinition* GetLightDefinitionByFormID(uint32_t formID);

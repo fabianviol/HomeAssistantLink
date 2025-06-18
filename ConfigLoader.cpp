@@ -1,13 +1,18 @@
 #include "ConfigLoader.h"
-#include "Logger.h"
-#include <fstream>
+
+#include <Windows.h>  // for MAX_PATH and HMODULE
+
+#include <algorithm>
 #include <filesystem>
-#include <Windows.h> // for MAX_PATH and HMODULE
-#include "SkyrimLightsDB.h"
+#include <fstream>
 #include <nlohmann/json.hpp>
+
+#include "Logger.h"
+#include "SkyrimLightsDB.h"
 using json = nlohmann::json;
 
 const std::string CONFIG_FILE_NAME = "HomeAssistantLink.json";
+float g_DirectionSharpness = 2.0f;
 
 // Define globals
 std::string g_HA_URL;
@@ -15,7 +20,8 @@ std::string g_HA_TOKEN;
 std::vector<std::string> g_LIGHT_ENTITY_IDS;
 std::vector<Scenario> g_SCENARIOS;
 std::vector<RealLamp> g_RealLamps;
-bool g_DebugMode = false;  
+bool g_DebugMode = false;
+std::vector<DayNightKeyframe> g_DayNightCycle;  // New for day/night curve!
 
 // Function to get the path of the current DLL (your plugin)
 std::filesystem::path GetCurrentModulePath() {
@@ -63,6 +69,39 @@ bool LoadConfiguration() {
     try {
         json config = json::parse(configFile);
 
+        // --- Lighting Options (Direction Sharpness etc) ---
+        if (config.contains("LightingOptions") && config["LightingOptions"].is_object()) {
+            auto &lo = config["LightingOptions"];
+            if (lo.contains("directionSharpness") && lo["directionSharpness"].is_number()) {
+                g_DirectionSharpness = lo["directionSharpness"].get<float>();
+                LogToFile_Info("Loaded directionSharpness: " + std::to_string(g_DirectionSharpness));
+                NotifyIngame("Loaded directionSharpness: " + std::to_string(g_DirectionSharpness));
+            } else {
+                g_DirectionSharpness = 2.0f;
+                LogToFile_Info("directionSharpness not set, using default 2.0");
+            }
+        } else {
+            g_DirectionSharpness = 2.0f;
+            LogToFile_Info("No LightingOptions section, using default directionSharpness 2.0");
+        }
+
+        // --- NEW: Parse DayNightCycle for dynamic ambient ---
+        g_DayNightCycle.clear();
+        if (config.contains("DayNightCycle") && config["DayNightCycle"].is_array()) {
+            for (const auto &kf : config["DayNightCycle"]) {
+                DayNightKeyframe key;
+                key.hour = kf.at("hour").get<int>();
+                key.rgb_color = kf.at("rgb_color").get<std::array<int, 3>>();
+                key.brightness_pct = kf.at("brightness_pct").get<int>();
+                g_DayNightCycle.push_back(key);
+            }
+            std::sort(g_DayNightCycle.begin(), g_DayNightCycle.end(),
+                      [](const DayNightKeyframe &a, const DayNightKeyframe &b) { return a.hour < b.hour; });
+            LogToFile_Info("Loaded DayNightCycle with " + std::to_string(g_DayNightCycle.size()) + " keyframes.");
+        } else {
+            LogToFile_Warn("No DayNightCycle found in config; ambient lighting will be static!");
+        }
+
         // Read HomeAssistant section
         if (config.contains("HomeAssistant") && config["HomeAssistant"].is_object()) {
             if (config["HomeAssistant"].contains("Url") && config["HomeAssistant"]["Url"].is_string()) {
@@ -97,16 +136,7 @@ bool LoadConfiguration() {
             g_DebugMode = false;
         }
 
-        // Read Lights array
-        if (config.contains("Lights") && config["Lights"].is_array()) {
-            g_LIGHT_ENTITY_IDS = config["Lights"].get<std::vector<std::string>>();
-            LogToFile_Info("Loaded " + std::to_string(g_LIGHT_ENTITY_IDS.size()) + " light entity IDs.");
-        } else {
-            LogToFile_Warn("'Lights' array not found or not an array in config. No lights configured.");
-            g_LIGHT_ENTITY_IDS.clear();
-        }
-
-        // --- NEW: Parse real lamp positions for directional lighting ---
+        // --- Parse real lamp positions for directional lighting ---
         g_RealLamps.clear();
         if (config.contains("Lights") && config["Lights"].is_array()) {
             for (const auto &lampJson : config["Lights"]) {
@@ -121,13 +151,16 @@ bool LoadConfiguration() {
             }
             LogToFile_Info("Loaded " + std::to_string(g_RealLamps.size()) +
                            " lamp positions for directional lighting.");
+            NotifyIngame("Loaded " + std::to_string(g_RealLamps.size()) + " lamp positions for directional lighting.");
         } else {
             LogToFile_Warn(
+                "'Lights' array not found or not an array for lamp positions. Directional lighting will be disabled.");
+            NotifyIngame(
                 "'Lights' array not found or not an array for lamp positions. Directional lighting will be disabled.");
             g_RealLamps.clear();
         }
 
-        // --- NEW SECTION: Read Scenarios array with 'inherit' support ---
+        // --- Read Scenarios array with 'inherit' support (for combat, torch, etc) ---
         g_SCENARIOS.clear();
         if (config.contains("Scenarios") && config["Scenarios"].is_array()) {
             for (const auto &scenario_json : config["Scenarios"]) {
@@ -151,11 +184,10 @@ bool LoadConfiguration() {
                     for (const auto &light_state_json : outcome_array_json) {
                         LightState light_state;
 
-                        // --- NEW: Inherit support ---
+                        // --- Inherit support ---
                         if (light_state_json.contains("inherit") && light_state_json["inherit"].is_boolean() &&
                             light_state_json["inherit"].get<bool>() == true) {
                             light_state.inherit = true;
-                            // entity_id is still required to identify which light this is
                             light_state.entity_id = light_state_json.at("entity_id").get<std::string>();
                             scenario.outcome.push_back(light_state);
                             continue;
@@ -212,13 +244,16 @@ bool LoadConfiguration() {
                 g_SCENARIOS.push_back(scenario);
             }
             LogToFile_Info("Loaded " + std::to_string(g_SCENARIOS.size()) + " scenarios.");
+            NotifyIngame("Loaded " + std::to_string(g_SCENARIOS.size()) + " scenarios.");
         } else {
             LogToFile_Warn("'Scenarios' array not found or not an array in config. No scenarios configured.");
             g_SCENARIOS.clear();
         }
+
         // --- END NEW SECTION ---
 
-        if (g_HA_URL.empty() || g_HA_TOKEN.empty() || g_LIGHT_ENTITY_IDS.empty()) {
+        // Final config check
+        if (g_HA_URL.empty() || g_HA_TOKEN.empty() || g_RealLamps.empty()) {
             LogToFile_Warn(
                 "Configuration is incomplete (missing URL, Token, or Lights). Home Assistant Link might not function "
                 "correctly.");
@@ -237,4 +272,3 @@ bool LoadConfiguration() {
         return false;
     }
 }
-

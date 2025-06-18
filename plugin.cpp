@@ -8,6 +8,7 @@
 #include "ConfigLoader.h"
 #include "LightManager.h"
 #include "GameState.h"
+#include "SkyrimLightsDB.h"
 
 const std::string PLUGIN_NAME_STR = "HomeAssistantLink";  // Use a string constant for the plugin name
 const std::string LOG_FILE_NAME = PLUGIN_NAME_STR + ".log";  // New dedicated log file name
@@ -19,11 +20,13 @@ void PeriodicGameDataExportThread() {
     if (g_threadRunning.exchange(true)) {
         LogToFile_Warn("PeriodicGameDataExportThread attempted to start but was already running. Skipping.");
         LogToConsole("WARNING: PeriodicGameDataExportThread attempted to start but was already running. Skipping.");
+        NotifyIngame("WARNING: PeriodicGameDataExportThread attempted to start but was already running. Skipping.");
         return;
     }
 
     LogToFile_Info("Periodic Game Data Export Thread started.");
     LogToConsole("HomeAssistantLink: Periodic Game Data Export Thread started.");  // This one should always appear
+    NotifyIngame("HomeAssistantLink: Periodic Game Data Export Thread started.");  // This one should always appear
 
     std::this_thread::sleep_for(std::chrono::seconds(5));  // Initial delay
 
@@ -63,9 +66,12 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
             spdlog::register_logger(g_plugin_logger);
 
             LogToConsole("HomeAssistantLink: Dedicated file logger initialized at: " + logFilePath.string());
+            NotifyIngame("HomeAssistantLink: Dedicated file logger initialized at: " + logFilePath.string());
         } else {
             // Fallback if log_directory isn't available
             LogToConsole(
+                "HomeAssistantLink: WARNING: Could not determine SKSE log directory. Dedicated file logging disabled.");
+            NotifyIngame(
                 "HomeAssistantLink: WARNING: Could not determine SKSE log directory. Dedicated file logging disabled.");
             OutputDebugStringA(
                 "HomeAssistantLink: WARNING - Could not determine SKSE log directory. Dedicated file logging "
@@ -73,6 +79,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
         }
     } catch (const spdlog::spdlog_ex &ex) {
         LogToConsole("HomeAssistantLink: ERROR: Failed to set up custom file logger: " + std::string(ex.what()));
+        NotifyIngame("HomeAssistantLink: ERROR: Failed to set up custom file logger: " + std::string(ex.what()));
         OutputDebugStringA(
             ("HomeAssistantLink: ERROR - Failed to set up custom file logger: " + std::string(ex.what()) + "\n")
                 .c_str());
@@ -87,7 +94,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
     }
 
     std::string lightsJsonPath = "SKSE/Plugins/lights.json";  // Adjust as needed!
-    if (!LoadSkyrimLightsDatabase(lightsJsonPath)) {
+    if (!LoadSkyrimLightsDatabase()) {
         LogToFile_Error("Failed to load Skyrim light definitions database. Proximity triggers will not work.");
     }
 
@@ -100,11 +107,14 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
             if (!g_threadRunning.load()) {  // Check if thread is NOT already running
                 LogToFile_Info("Game loaded. Starting Home Assistant communication thread.");
                 LogToConsole("HomeAssistantLink: Game loaded. Starting Home Assistant communication thread.");
+                NotifyIngame("HomeAssistantLink: Game loaded. Starting Home Assistant communication thread.");
                 std::thread exportThread(PeriodicGameDataExportThread);
                 exportThread.detach();  // Detach the thread so it runs independently
             } else {
                 LogToFile_Info("Game loaded, but Home Assistant communication thread is already running.");
                 LogToConsole(
+                    "HomeAssistantLink: Game loaded, but HomeAssistantLink communication thread is already running.");
+                NotifyIngame(
                     "HomeAssistantLink: Game loaded, but HomeAssistantLink communication thread is already running.");
             }
         }

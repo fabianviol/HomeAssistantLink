@@ -37,3 +37,9 @@ void LogToConsole(const std::string& message) {
         }
     }
 }
+
+void NotifyIngame(const std::string& msg, bool sound) {
+    // Use sound only if function accepts it; otherwise fallback
+    // Most safe: pass nullptr as 2nd arg for default sound
+    RE::DebugNotification(msg.c_str(), nullptr);
+}

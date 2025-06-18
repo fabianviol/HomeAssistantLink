@@ -63,6 +63,13 @@ struct RealLamp {
     Vec3 position;  // in your room, e.g. centimeters from center
 };
 
+
+struct DayNightKeyframe {
+    int hour;
+    std::array<int, 3> rgb_color;
+    int brightness_pct;
+};
+
 // Config globals (extern!)
 extern std::string g_HA_URL;
 extern std::string g_HA_TOKEN;
@@ -70,6 +77,11 @@ extern std::vector<std::string> g_LIGHT_ENTITY_IDS;
 extern std::vector<Scenario> g_SCENARIOS;
 extern std::vector<RealLamp> g_RealLamps;
 extern bool g_DebugMode; 
+extern std::vector<DayNightKeyframe> g_DayNightCycle;
+
+float GetPlayerCameraYawRadians();
+
+extern float g_DirectionSharpness;  // Declaration only, NO initialization
 
 // Config loader
 bool LoadConfiguration();
